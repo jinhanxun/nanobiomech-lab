@@ -6,13 +6,20 @@ type: page
 
 # Publications
 
-Access our group's publications by clicking on each paper's title
-
-###### \* Equal contributing author 
-
-###### † Corresponding author
 
 ## 2025
+
+### **Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators**
+
+**H. Jin†, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamya, G. E. Karniadakis, H. D. Espinosa**
+
+*Advanced Materials* 2025, 2420063
+
+**DOI:** [10.1002/adma.202420063](https://doi.org/10.1002/adma.202420063)
+
+Machine learning (ML) is emerging as a transformative tool for the design of mechanical metamaterials, offering properties that far surpass those achievable through lab-based trial-and-error methods. However, a major challenge in current inverse design strategies is their reliance on extensive computational and/or experimental datasets, which becomes particularly problematic for designing micro-scale stochastic architected materials that exhibit nonlinear mechanical behaviors. Here, a comprehensive end-to-end scientific ML framework, leveraging deep neural operators (including DeepONet and its variants) is introduced, to directly learn the relationship between the complete microstructure and mechanical response of architected metamaterials from sparse but high-quality in situ experimental data.
+
+---
 
 ### **Recent advances and applications of machine learning in experimental solid mechanics: A review**
 
