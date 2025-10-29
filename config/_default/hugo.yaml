@@ -5,7 +5,7 @@ theme: 'github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5'
 
 # Disable problematic features
 disableHugoGeneratorInject: true
-disableKinds: ['taxonomy', 'taxonomyTerm']
+disableKinds: ['taxonomy']
 
 # Output formats
 outputs:
@@ -15,3 +15,15 @@ outputs:
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+# Security configuration to allow Wowchemy environment variables
+security:
+  enableInlineShortcodes: true
+  exec:
+    allow: ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    osEnv: ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
+  funcs:
+    getenv: ['^HUGO_', '^CI$', '^WC_']
+  http:
+    methods: ['(?i)GET|POST']
+    urls: ['.*']
