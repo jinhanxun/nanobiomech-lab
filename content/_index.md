@@ -15,12 +15,7 @@ sections:
         We integrate in-situ experiments, multiscale modeling, and machine learning to
         design resilient nano-bio-structured materials for healthcare and engineering.
       image:
-        filename: hero.jpg
-      cta:
-        - label: "Research"
-          url: "/research/"
-        - label: "Publications"
-          url: "/publication/"
+        filename: welcome.jpg
     design:
       background:
         color: ""
