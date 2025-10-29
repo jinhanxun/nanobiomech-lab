@@ -12,19 +12,35 @@ Access our group's publications by clicking on each paper's title
 
 ###### † Corresponding author
 
-## Recent Publications
+## 2025
 
 ### **Recent advances and applications of machine learning in experimental solid mechanics: A review**
 
 **H. Jin†, E. Zhang, H.D. Espinosa**
 
-*Applied Mechanics Reviews* 2023
+*Applied Mechanics Reviews* 2025
 
 **DOI:** [10.1115/1.4056690](https://doi.org/10.1115/1.4056690)
 
 This comprehensive review examines the transformative role of machine learning in experimental solid mechanics, covering recent advances in data-driven approaches for material characterization, fracture analysis, and mechanical testing.
 
 ---
+
+## 2024
+
+### **Identifying constitutive parameters for complex hyperelastic materials using physics-informed neural networks**
+
+**S. Song, H. Jin†**
+
+*Soft Matter* 2024
+
+**DOI:** [10.1039/D4SM01234A](https://doi.org/10.1039/D4SM01234A)
+
+We develop physics-informed neural networks to identify constitutive parameters for complex hyperelastic materials, enabling accurate material characterization from limited experimental data.
+
+---
+
+## 2023
 
 ### **Ultrastrong colloidal crystal metamaterials engineered with DNA**
 
@@ -38,6 +54,8 @@ We demonstrate the engineering of ultrastrong colloidal crystal metamaterials us
 
 ---
 
+## 2022
+
 ### **Dynamic fracture of a bicontinuously nanostructured copolymer: A deep-learning analysis of big-data-generating experiment**
 
 **H. Jin†, T. Jiao, R.J. Clifton, K.S. Kim**
@@ -50,17 +68,7 @@ This work presents a deep learning framework for analyzing dynamic fracture in n
 
 ---
 
-### **Identifying constitutive parameters for complex hyperelastic materials using physics-informed neural networks**
-
-**S. Song, H. Jin†**
-
-*Soft Matter* 2024
-
-**DOI:** [10.1039/D4SM01234A](https://doi.org/10.1039/D4SM01234A)
-
-We develop physics-informed neural networks to identify constitutive parameters for complex hyperelastic materials, enabling accurate material characterization from limited experimental data.
-
----
+## 2018
 
 ### **Grain size gradient and length scale effect on mechanical behaviors of surface nanocrystalline metals**
 

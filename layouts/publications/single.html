@@ -169,6 +169,16 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
+/* Year Headers */
+.year-header {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  margin: 3rem 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--primary-color);
+  font-weight: 700;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .publication-layout {
@@ -198,9 +208,10 @@ body {
     <p>{{ .Content }}</p>
   </div>
 
-  <div class="section-header">Recent Publications</div>
+  <!-- 2025 Publications -->
+  <div class="year-header">2025</div>
 
-  <!-- Publication 1 -->
+  <!-- Publication 1 - 2025 -->
   <div class="publication-layout">
     <div class="figure-section">
       <!-- Replace with your actual figure: <img src="/images/papers/ml_review_figure.jpg" alt="Machine learning in experimental mechanics" class="figure-image"> -->
@@ -214,7 +225,7 @@ body {
         </a>
       </h3>
       <div class="publication-authors">H. Jin†, E. Zhang, H.D. Espinosa</div>
-      <div class="publication-journal">Applied Mechanics Reviews 2023</div>
+      <div class="publication-journal">Applied Mechanics Reviews 2025</div>
       <div class="publication-doi"><strong>DOI:</strong> <a href="https://doi.org/10.1115/1.4056690" target="_blank">10.1115/1.4056690</a></div>
       <div class="publication-abstract">
         This comprehensive review examines the transformative role of machine learning in experimental solid mechanics, covering recent advances in data-driven approaches for material characterization, fracture analysis, and mechanical testing.
@@ -222,51 +233,10 @@ body {
     </div>
   </div>
 
-  <!-- Publication 2 -->
-  <div class="publication-layout">
-    <div class="figure-section">
-      <!-- Replace with your actual figure: <img src="/images/papers/dna_metamaterials_figure.jpg" alt="DNA-engineered colloidal crystal metamaterials" class="figure-image"> -->
-      <div class="figure-placeholder">🧬</div>
-      <div class="figure-caption">DNA-engineered colloidal crystal metamaterials</div>
-    </div>
-    <div class="content-section">
-      <h3 class="publication-title">
-        <a href="https://doi.org/10.1126/sciadv.adj8103" target="_blank">
-          Ultrastrong colloidal crystal metamaterials engineered with DNA
-        </a>
-      </h3>
-      <div class="publication-authors">Y. Li*, H. Jin*, W. Zhou, Z. Wang, Z. Lin, C.A. Mirkin#, H.D. Espinosa#</div>
-      <div class="publication-journal">Science Advances 2023</div>
-      <div class="publication-doi"><strong>DOI:</strong> <a href="https://doi.org/10.1126/sciadv.adj8103" target="_blank">10.1126/sciadv.adj8103</a></div>
-      <div class="publication-abstract">
-        We demonstrate the engineering of ultrastrong colloidal crystal metamaterials using DNA-directed assembly, achieving unprecedented mechanical properties through precise control of nanoscale architecture.
-      </div>
-    </div>
-  </div>
+  <!-- 2024 Publications -->
+  <div class="year-header">2024</div>
 
-  <!-- Publication 3 -->
-  <div class="publication-layout">
-    <div class="figure-section">
-      <!-- Replace with your actual figure: <img src="/images/papers/dynamic_fracture_figure.jpg" alt="Deep learning analysis of dynamic fracture" class="figure-image"> -->
-      <div class="figure-placeholder">💥</div>
-      <div class="figure-caption">Deep learning analysis of dynamic fracture</div>
-    </div>
-    <div class="content-section">
-      <h3 class="publication-title">
-        <a href="https://doi.org/10.1016/j.jmps.2022.104898" target="_blank">
-          Dynamic fracture of a bicontinuously nanostructured copolymer: A deep-learning analysis of big-data-generating experiment
-        </a>
-      </h3>
-      <div class="publication-authors">H. Jin†, T. Jiao, R.J. Clifton, K.S. Kim</div>
-      <div class="publication-journal">Journal of the Mechanics and Physics of Solids 2022</div>
-      <div class="publication-doi"><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.jmps.2022.104898" target="_blank">10.1016/j.jmps.2022.104898</a></div>
-      <div class="publication-abstract">
-        This work presents a deep learning framework for analyzing dynamic fracture in nanostructured copolymers, utilizing big data from high-speed experiments to understand complex failure mechanisms.
-      </div>
-    </div>
-  </div>
-
-  <!-- Publication 4 -->
+  <!-- Publication 2 - 2024 -->
   <div class="publication-layout">
     <div class="figure-section">
       <!-- Replace with your actual figure: <img src="/images/papers/physics_informed_figure.jpg" alt="Physics-informed neural networks for material characterization" class="figure-image"> -->
@@ -288,7 +258,60 @@ body {
     </div>
   </div>
 
-  <!-- Publication 5 -->
+  <!-- 2023 Publications -->
+  <div class="year-header">2023</div>
+
+  <!-- Publication 3 - 2023 -->
+  <div class="publication-layout">
+    <div class="figure-section">
+      <!-- Replace with your actual figure: <img src="/images/papers/dna_metamaterials_figure.jpg" alt="DNA-engineered colloidal crystal metamaterials" class="figure-image"> -->
+      <div class="figure-placeholder">🧬</div>
+      <div class="figure-caption">DNA-engineered colloidal crystal metamaterials</div>
+    </div>
+    <div class="content-section">
+      <h3 class="publication-title">
+        <a href="https://doi.org/10.1126/sciadv.adj8103" target="_blank">
+          Ultrastrong colloidal crystal metamaterials engineered with DNA
+        </a>
+      </h3>
+      <div class="publication-authors">Y. Li*, H. Jin*, W. Zhou, Z. Wang, Z. Lin, C.A. Mirkin#, H.D. Espinosa#</div>
+      <div class="publication-journal">Science Advances 2023</div>
+      <div class="publication-doi"><strong>DOI:</strong> <a href="https://doi.org/10.1126/sciadv.adj8103" target="_blank">10.1126/sciadv.adj8103</a></div>
+      <div class="publication-abstract">
+        We demonstrate the engineering of ultrastrong colloidal crystal metamaterials using DNA-directed assembly, achieving unprecedented mechanical properties through precise control of nanoscale architecture.
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022 Publications -->
+  <div class="year-header">2022</div>
+
+  <!-- Publication 4 - 2022 -->
+  <div class="publication-layout">
+    <div class="figure-section">
+      <!-- Replace with your actual figure: <img src="/images/papers/dynamic_fracture_figure.jpg" alt="Deep learning analysis of dynamic fracture" class="figure-image"> -->
+      <div class="figure-placeholder">💥</div>
+      <div class="figure-caption">Deep learning analysis of dynamic fracture</div>
+    </div>
+    <div class="content-section">
+      <h3 class="publication-title">
+        <a href="https://doi.org/10.1016/j.jmps.2022.104898" target="_blank">
+          Dynamic fracture of a bicontinuously nanostructured copolymer: A deep-learning analysis of big-data-generating experiment
+        </a>
+      </h3>
+      <div class="publication-authors">H. Jin†, T. Jiao, R.J. Clifton, K.S. Kim</div>
+      <div class="publication-journal">Journal of the Mechanics and Physics of Solids 2022</div>
+      <div class="publication-doi"><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.jmps.2022.104898" target="_blank">10.1016/j.jmps.2022.104898</a></div>
+      <div class="publication-abstract">
+        This work presents a deep learning framework for analyzing dynamic fracture in nanostructured copolymers, utilizing big data from high-speed experiments to understand complex failure mechanisms.
+      </div>
+    </div>
+  </div>
+
+  <!-- 2018 Publications -->
+  <div class="year-header">2018</div>
+
+  <!-- Publication 5 - 2018 -->
   <div class="publication-layout">
     <div class="figure-section">
       <!-- Replace with your actual figure: <img src="/images/papers/grain_gradient_figure.jpg" alt="Grain size gradient effects in nanocrystalline metals" class="figure-image"> -->
