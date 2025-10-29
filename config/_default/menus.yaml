@@ -6,24 +6,18 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: People
-    url: /people/
+  - name: Team
+    url: /team/
     weight: 20
   - name: Research
     url: /research/
     weight: 30
   - name: Publications
-    url: /publication/
+    url: /publications/
     weight: 40
-  - name: Facilities
-    url: /facilities/
-    weight: 50
   - name: News
-    url: /post/
-    weight: 60
+    url: /news/
+    weight: 50
   - name: Openings
     url: /openings/
-    weight: 70
-  - name: Contact
-    url: /contact/
-    weight: 80
+    weight: 60

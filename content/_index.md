@@ -20,7 +20,7 @@ sections:
         - label: "Research"
           url: "/research/"
         - label: "Publications"
-          url: "/publication/"
+          url: "/publications/"
     design:
       background:
         color: ""
@@ -113,7 +113,7 @@ sections:
   - block: markdown
     content:
       text: |
-        {{% cta cta_link="/people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="/team/" cta_text="Meet the team →" %}}
 
         {{% cta cta_link="/openings/" cta_text="Join the lab →" %}}
     design:
