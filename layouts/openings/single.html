@@ -1,0 +1,438 @@
+{{ define "main" }}
+<style>
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #1f2937;
+  --text-light: #6b7280;
+  --bg-light: #f9fafb;
+  --border-color: #e5e7eb;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Section Headers */
+.section-header {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin: 3rem 0 2rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--primary-color);
+  font-weight: 700;
+}
+
+/* Position Cards */
+.position-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.position-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.position-header {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.position-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.position-focus {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.position-badge {
+  display: inline-block;
+  background: var(--success-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.position-content {
+  padding: 2rem;
+}
+
+.position-section {
+  margin-bottom: 2rem;
+}
+
+.position-section h3 {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1rem;
+}
+
+.position-section p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.position-section ul {
+  color: var(--text-light);
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.position-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Application Process */
+.application-process {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.application-process h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.application-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.step-number {
+  background: var(--primary-color);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+/* What We Offer */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.offer-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  border-left: 4px solid var(--primary-color);
+}
+
+.offer-item h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.offer-item p {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.contact-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.contact-section a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .position-header,
+  .position-content {
+    padding: 1.5rem;
+  }
+  
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .application-step {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .step-number {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+</style>
+
+<div class="container">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+  </div>
+
+  <div class="section-header">Current Openings</div>
+
+  <!-- Position 1 -->
+  <div class="position-card">
+    <div class="position-header">
+      <h2 class="position-title">PhD Position 1: Machine Learning in Mechanics</h2>
+      <p class="position-focus">Research Focus: Development of physics-informed neural networks and deep learning approaches for mechanical metamaterial design and characterization.</p>
+      <span class="position-badge">Open</span>
+    </div>
+    <div class="position-content">
+      <div class="position-section">
+        <h3>Project Description</h3>
+        <p>We are seeking a PhD student to work on the development of novel machine learning frameworks for the inverse design of mechanical metamaterials. The successful candidate will work on projects involving neural operators (DeepONet, Neural ODEs), physics-informed neural networks, and data-driven approaches for understanding complex mechanical behaviors in architected materials.</p>
+      </div>
+      
+      <div class="position-section">
+        <h3>Key Responsibilities</h3>
+        <ul>
+          <li>Develop and implement machine learning algorithms for metamaterial design</li>
+          <li>Conduct computational simulations and experimental validation</li>
+          <li>Collaborate with interdisciplinary team members</li>
+          <li>Publish research findings in top-tier journals</li>
+          <li>Present work at international conferences</li>
+        </ul>
+      </div>
+      
+      <div class="position-section">
+        <h3>Preferred Qualifications</h3>
+        <ul>
+          <li>Master's degree in Mechanical Engineering, Materials Science, Computer Science, or related field</li>
+          <li>Strong background in machine learning, deep learning, and computational mechanics</li>
+          <li>Experience with Python, PyTorch/TensorFlow, and finite element analysis</li>
+          <li>Knowledge of metamaterials, mechanics of materials, or computational physics</li>
+          <li>Strong mathematical background in differential equations and optimization</li>
+          <li>Excellent written and oral communication skills</li>
+          <li>Prior research experience in ML applications to engineering problems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Position 2 -->
+  <div class="position-card">
+    <div class="position-header">
+      <h2 class="position-title">PhD Position 2: Experimental Solid Mechanics</h2>
+      <p class="position-focus">Research Focus: Advanced experimental techniques for characterizing mechanical properties of nanomaterials and bioinspired materials.</p>
+      <span class="position-badge">Open</span>
+    </div>
+    <div class="position-content">
+      <div class="position-section">
+        <h3>Project Description</h3>
+        <p>We are seeking a PhD student to work on developing novel experimental methodologies for characterizing mechanical properties of nanomaterials, bioinspired materials, and soft matter systems. The research will involve in-situ testing, micro/nano-scale mechanical characterization, and development of new experimental platforms.</p>
+      </div>
+      
+      <div class="position-section">
+        <h3>Key Responsibilities</h3>
+        <ul>
+          <li>Design and conduct mechanical testing experiments</li>
+          <li>Develop novel experimental techniques and instrumentation</li>
+          <li>Analyze experimental data and correlate with theoretical models</li>
+          <li>Collaborate with computational and theoretical researchers</li>
+          <li>Publish research findings in high-impact journals</li>
+          <li>Present work at national and international conferences</li>
+        </ul>
+      </div>
+      
+      <div class="position-section">
+        <h3>Preferred Qualifications</h3>
+        <ul>
+          <li>Master's degree in Mechanical Engineering, Materials Science, Physics, or related field</li>
+          <li>Strong background in experimental mechanics and materials characterization</li>
+          <li>Experience with mechanical testing equipment (MTS, Instron, nanoindentation, etc.)</li>
+          <li>Knowledge of microscopy techniques (SEM, TEM, AFM, optical microscopy)</li>
+          <li>Experience with data analysis software (MATLAB, Python, LabVIEW)</li>
+          <li>Understanding of mechanics of materials and solid mechanics principles</li>
+          <li>Hands-on laboratory experience with mechanical testing</li>
+          <li>Excellent problem-solving and analytical skills</li>
+          <li>Strong written and oral communication skills</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header">Application Process</div>
+  
+  <div class="application-process">
+    <h3>How to Apply</h3>
+    <div class="application-step">
+      <div class="step-number">1</div>
+      <div class="step-content">
+        <strong>Send your application materials to:</strong> hjin@example.edu
+      </div>
+    </div>
+    <div class="application-step">
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <strong>Use subject line:</strong> "PhD Application - [Position Title]"
+      </div>
+    </div>
+    <div class="application-step">
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <strong>Applications will be reviewed on a rolling basis</strong>
+      </div>
+    </div>
+    <div class="application-step">
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <strong>Selected candidates will be invited for interviews</strong>
+      </div>
+    </div>
+    
+    <p><strong>Application Deadline:</strong> Open until filled</p>
+    <p><strong>Start Date:</strong> Fall 2025 or Spring 2026</p>
+  </div>
+
+  <div class="section-header">What We Offer</div>
+  
+  <div class="offer-grid">
+    <div class="offer-item">
+      <h4>💰 Competitive Stipend</h4>
+      <p>Full tuition coverage and competitive research stipend</p>
+    </div>
+    <div class="offer-item">
+      <h4>🔬 State-of-the-Art Facilities</h4>
+      <p>Access to cutting-edge equipment and research infrastructure</p>
+    </div>
+    <div class="offer-item">
+      <h4>🤝 Collaborative Environment</h4>
+      <p>Work with interdisciplinary teams and international collaborators</p>
+    </div>
+    <div class="offer-item">
+      <h4>✈️ Conference Travel</h4>
+      <p>Opportunities for international collaboration and conference presentations</p>
+    </div>
+    <div class="offer-item">
+      <h4>📚 Professional Development</h4>
+      <p>Career mentoring and professional development opportunities</p>
+    </div>
+    <div class="offer-item">
+      <h4>💻 Computing Resources</h4>
+      <p>Access to high-performance computing clusters</p>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h3>Contact Information</h3>
+    <p><strong>Principal Investigator:</strong> Dr. Hanxun Jin</p>
+    <p><strong>Email:</strong> <a href="mailto:hjin@example.edu">hjin@example.edu</a></p>
+    <p><strong>Lab Website:</strong> <a href="https://www.nanobiomech-lab.com">www.nanobiomech-lab.com</a></p>
+    <p style="margin-top: 1rem; font-style: italic;">For questions about specific positions or the application process, please don't hesitate to reach out!</p>
+  </div>
+
+  <div style="text-align: center; margin: 2rem 0; padding: 1rem; background: var(--bg-light); border-radius: 8px; color: var(--text-light); font-style: italic;">
+    <p>The NanoBioMech-AI Lab is committed to diversity, equity, and inclusion. We encourage applications from candidates of all backgrounds and experiences.</p>
+  </div>
+
+</div>
+{{ end }}
