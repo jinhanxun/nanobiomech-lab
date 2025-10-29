@@ -1,49 +1,388 @@
 {{ define "main" }}
-<div class="hero">
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
-</div>
+<style>
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #1f2937;
+  --text-light: #6b7280;
+  --bg-light: #f9fafb;
+  --border-color: #e5e7eb;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: white;
+  color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--bg-light);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: var(--primary-color);
+}
+
+/* Features Section */
+.features {
+  padding: 100px 0;
+  background: var(--bg-light);
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.feature-card p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+}
+
+.feature-card .btn {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.feature-card .btn:hover {
+  text-decoration: underline;
+}
+
+/* Research Highlights */
+.research-highlights {
+  padding: 100px 0;
+}
+
+.research-highlights h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.highlight-image {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(45deg, #f0f9ff, #e0f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.highlight-content {
+  padding: 1.5rem;
+}
+
+.highlight-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.highlight-content p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.highlight-meta {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Publications */
+.publications {
+  padding: 100px 0;
+  background: var(--bg-light);
+}
+
+.publications h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+
+.publication-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.publication-item {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--primary-color);
+}
+
+.publication-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.publication-item .authors {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.publication-item .journal {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.publication-item .year {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .features-grid,
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
 
 {{ if .Params.sections }}
 {{ range .Params.sections }}
 {{ if eq .block "hero" }}
-<div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin: 20px 0; border-radius: 10px;">
-    <h1 style="font-size: 3em; margin-bottom: 20px;">{{ .content.title }}</h1>
-    <p style="font-size: 1.2em; max-width: 600px; margin: 0 auto;">{{ .content.text | markdownify }}</p>
-    {{ if .content.image }}
-    <img src="{{ .content.image.filename }}" alt="{{ .content.title }}" style="max-width: 100%; height: auto; margin-top: 30px; border-radius: 10px;">
-    {{ end }}
-    {{ if .content.cta }}
-    <div style="margin-top: 30px;">
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .content.title }}</h1>
+      <p class="hero-subtitle">{{ .content.text | markdownify }}</p>
+      {{ if .content.cta }}
+      <div class="hero-cta">
         {{ range .content.cta }}
-        <a href="{{ .url }}" style="display: inline-block; background: white; color: #333; padding: 12px 24px; margin: 0 10px; text-decoration: none; border-radius: 5px; font-weight: bold;">{{ .label }}</a>
+        <a href="{{ .url }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
+      </div>
+      {{ end }}
     </div>
-    {{ end }}
-</div>
+  </div>
+</section>
 {{ end }}
 
 {{ if eq .block "features" }}
-<div class="features-section" style="padding: 60px 0;">
-    <h2 style="text-align: center; margin-bottom: 40px; font-size: 2.5em;">{{ .content.title }}</h2>
-    <div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
-        {{ range .content.items }}
-        <div class="feature-card" style="border: 1px solid #eee; padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-            <h3 style="color: #333; margin-bottom: 15px;">{{ .name }}</h3>
-            <p style="color: #666; margin-bottom: 20px;">{{ .description }}</p>
-            {{ if .cta }}
-            <a href="{{ .cta.url }}" style="color: #007bff; text-decoration: none; font-weight: bold;">{{ .cta.label }} →</a>
-            {{ end }}
-        </div>
+<section class="features">
+  <div class="container">
+    <h2>{{ .content.title }}</h2>
+    <div class="features-grid">
+      {{ range .content.items }}
+      <div class="feature-card">
+        <h3>{{ .name }}</h3>
+        <p>{{ .description }}</p>
+        {{ if .cta }}
+        <a href="{{ .cta.url }}" class="btn">{{ .cta.label }} →</a>
         {{ end }}
+      </div>
+      {{ end }}
     </div>
-</div>
+  </div>
+</section>
 {{ end }}
 
-{{ if eq .block "markdown" }}
-<div class="markdown-section" style="padding: 40px 0; text-align: center;">
-    {{ .content.text | markdownify }}
-</div>
+{{ if eq .block "research" }}
+<section class="research-highlights">
+  <div class="container">
+    <h2>{{ .content.title }}</h2>
+    <div class="highlight-grid">
+      {{ range .content.items }}
+      <div class="highlight-card">
+        <div class="highlight-image">{{ .icon }}</div>
+        <div class="highlight-content">
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <div class="highlight-meta">{{ .journal }} ({{ .year }})</div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ if eq .block "publications" }}
+<section class="publications">
+  <div class="container">
+    <h2>{{ .content.title }}</h2>
+    <div class="publication-list">
+      {{ range .content.items }}
+      <div class="publication-item">
+        <h3>{{ .title }}</h3>
+        <div class="authors">{{ .authors }}</div>
+        <div class="journal">{{ .journal }}</div>
+        <div class="year">{{ .year }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}
 {{ end }}
 {{ end }}
