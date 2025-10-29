@@ -29,14 +29,38 @@ body {
   padding: 0 20px;
 }
 
+/* Main Layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+/* Left Content */
+.main-content {
+  min-height: 100vh;
+}
+
+/* Right Sidebar */
+.sidebar {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 12px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
-  padding: 120px 0;
+  padding: 80px 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .hero::before {
@@ -56,14 +80,14 @@ body {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   opacity: 0.9;
   max-width: 600px;
@@ -72,8 +96,8 @@ body {
 }
 
 .hero-description {
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
   opacity: 0.8;
   max-width: 700px;
   margin-left: auto;
@@ -107,66 +131,151 @@ body {
   transform: translateY(-2px);
 }
 
-.btn-outline {
-  background: transparent;
-  color: white;
-  border-color: white;
+/* Profile Section */
+.profile-section {
+  margin-bottom: 2rem;
 }
 
-.btn-outline:hover {
-  background: white;
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  background: linear-gradient(45deg, #f0f9ff, #e0f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
   color: var(--primary-color);
+  border: 4px solid white;
+  box-shadow: var(--shadow);
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.profile-title {
+  font-size: 1rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.contact-item {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-item strong {
+  color: var(--text-color);
+  min-width: 60px;
+}
+
+.contact-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* News Section */
+.news-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.news-item {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 0.3rem;
+}
+
+.news-title {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  line-height: 1.4;
 }
 
 /* Features Section */
 .features {
-  padding: 100px 0;
-  background: var(--bg-light);
+  padding: 60px 0;
 }
 
 .features h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: var(--text-color);
 }
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .feature-card {
   background: white;
-  padding: 2rem;
-  border-radius: 12px;
+  padding: 1.5rem;
+  border-radius: 8px;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
 }
 
 .feature-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
 .feature-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
   color: var(--text-color);
 }
 
 .feature-card p {
   color: var(--text-light);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
 }
 
 .feature-card .btn {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .feature-card .btn:hover {
@@ -175,125 +284,132 @@ body {
 
 /* Research Highlights */
 .research-highlights {
-  padding: 100px 0;
+  padding: 60px 0;
+  background: var(--bg-light);
+  margin: 2rem 0;
 }
 
 .research-highlights h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: var(--text-color);
 }
 
 .highlight-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .highlight-card {
   background: white;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
 }
 
 .highlight-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
 .highlight-image {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background: linear-gradient(45deg, #f0f9ff, #e0f2fe);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--primary-color);
 }
 
 .highlight-content {
-  padding: 1.5rem;
+  padding: 1.2rem;
 }
 
 .highlight-content h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: var(--text-color);
 }
 
 .highlight-content p {
   color: var(--text-light);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .highlight-meta {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: var(--text-light);
   font-style: italic;
 }
 
 /* Publications */
 .publications {
-  padding: 100px 0;
-  background: var(--bg-light);
+  padding: 60px 0;
 }
 
 .publications h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: var(--text-color);
 }
 
 .publication-list {
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .publication-item {
   background: white;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 0.8rem;
+  border-radius: 6px;
   box-shadow: var(--shadow);
-  border-left: 4px solid var(--primary-color);
+  border-left: 3px solid var(--primary-color);
 }
 
 .publication-item h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
   color: var(--text-color);
 }
 
 .publication-item .authors {
   color: var(--text-light);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
 }
 
 .publication-item .journal {
   color: var(--primary-color);
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
 }
 
 .publication-item .year {
   color: var(--text-light);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
+@media (max-width: 968px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   
-  .hero-subtitle {
-    font-size: 1.1rem;
+  .sidebar {
+    position: static;
+    order: -1;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
   }
   
   .features-grid,
@@ -308,82 +424,138 @@ body {
 }
 </style>
 
-{{ if .Params.sections }}
-{{ range .Params.sections }}
-{{ if eq .block "hero" }}
-<section class="hero">
-  <div class="container">
-    <div class="hero-content">
-      <h1>{{ .content.title }}</h1>
-      <p class="hero-subtitle">{{ .content.text | markdownify }}</p>
-      {{ if .content.cta }}
-      <div class="hero-cta">
-        {{ range .content.cta }}
-        <a href="{{ .url }}" class="btn btn-primary">{{ .label }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ if eq .block "features" }}
-<section class="features">
-  <div class="container">
-    <h2>{{ .content.title }}</h2>
-    <div class="features-grid">
-      {{ range .content.items }}
-      <div class="feature-card">
-        <h3>{{ .name }}</h3>
-        <p>{{ .description }}</p>
-        {{ if .cta }}
-        <a href="{{ .cta.url }}" class="btn">{{ .cta.label }} →</a>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ if eq .block "research" }}
-<section class="research-highlights">
-  <div class="container">
-    <h2>{{ .content.title }}</h2>
-    <div class="highlight-grid">
-      {{ range .content.items }}
-      <div class="highlight-card">
-        <div class="highlight-image">{{ .icon }}</div>
-        <div class="highlight-content">
-          <h3>{{ .title }}</h3>
-          <p>{{ .description }}</p>
-          <div class="highlight-meta">{{ .journal }} ({{ .year }})</div>
+<div class="main-layout">
+  <div class="main-content">
+    {{ if .Params.sections }}
+    {{ range .Params.sections }}
+    {{ if eq .block "hero" }}
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>{{ .content.title }}</h1>
+          <p class="hero-subtitle">{{ .content.text | markdownify }}</p>
+          {{ if .content.cta }}
+          <div class="hero-cta">
+            {{ range .content.cta }}
+            <a href="{{ .url }}" class="btn btn-primary">{{ .label }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
         </div>
       </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
+    </section>
+    {{ end }}
 
-{{ if eq .block "publications" }}
-<section class="publications">
-  <div class="container">
-    <h2>{{ .content.title }}</h2>
-    <div class="publication-list">
-      {{ range .content.items }}
-      <div class="publication-item">
-        <h3>{{ .title }}</h3>
-        <div class="authors">{{ .authors }}</div>
-        <div class="journal">{{ .journal }}</div>
-        <div class="year">{{ .year }}</div>
+    {{ if eq .block "features" }}
+    <section class="features">
+      <div class="container">
+        <h2>{{ .content.title }}</h2>
+        <div class="features-grid">
+          {{ range .content.items }}
+          <div class="feature-card">
+            <h3>{{ .name }}</h3>
+            <p>{{ .description }}</p>
+            {{ if .cta }}
+            <a href="{{ .cta.url }}" class="btn">{{ .cta.label }} →</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
       </div>
-      {{ end }}
+    </section>
+    {{ end }}
+
+    {{ if eq .block "research" }}
+    <section class="research-highlights">
+      <div class="container">
+        <h2>{{ .content.title }}</h2>
+        <div class="highlight-grid">
+          {{ range .content.items }}
+          <div class="highlight-card">
+            <div class="highlight-image">{{ .icon }}</div>
+            <div class="highlight-content">
+              <h3>{{ .title }}</h3>
+              <p>{{ .description }}</p>
+              <div class="highlight-meta">{{ .journal }} ({{ .year }})</div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if eq .block "publications" }}
+    <section class="publications">
+      <div class="container">
+        <h2>{{ .content.title }}</h2>
+        <div class="publication-list">
+          {{ range .content.items }}
+          <div class="publication-item">
+            <h3>{{ .title }}</h3>
+            <div class="authors">{{ .authors }}</div>
+            <div class="journal">{{ .journal }}</div>
+            <div class="year">{{ .year }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <div class="profile-image">👨‍🔬</div>
+      <div class="profile-name">Dr. Hanxun Jin</div>
+      <div class="profile-title">Principal Investigator<br>NanoBioMech-AI Lab</div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+      <h3>Contact</h3>
+      <div class="contact-item">
+        <strong>Email:</strong>
+        <a href="mailto:hjin@example.edu">hjin@example.edu</a>
+      </div>
+      <div class="contact-item">
+        <strong>Phone:</strong>
+        <span>(555) 123-4567</span>
+      </div>
+      <div class="contact-item">
+        <strong>Office:</strong>
+        <span>Building 123, Room 456</span>
+      </div>
+      <div class="contact-item">
+        <strong>Twitter:</strong>
+        <a href="https://twitter.com/yourhandle">@yourhandle</a>
+      </div>
+      <div class="contact-item">
+        <strong>LinkedIn:</strong>
+        <a href="https://linkedin.com/in/yourprofile">yourprofile</a>
+      </div>
+    </div>
+
+    <!-- News Section -->
+    <div class="news-section">
+      <h3>News</h3>
+      <div class="news-item">
+        <div class="news-date">2024/12</div>
+        <div class="news-title">New paper accepted in Nature Materials</div>
+      </div>
+      <div class="news-item">
+        <div class="news-date">2024/11</div>
+        <div class="news-title">Lab receives NSF grant for AI-driven materials research</div>
+      </div>
+      <div class="news-item">
+        <div class="news-date">2024/10</div>
+        <div class="news-title">Welcome to our new PhD students!</div>
+      </div>
     </div>
   </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
+</div>
 {{ end }}
