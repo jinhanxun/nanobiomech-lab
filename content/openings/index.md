@@ -80,7 +80,7 @@ We are seeking a PhD student to work on developing novel experimental methodolog
 ## Application Process
 
 **How to Apply:**
-1. Send your application materials to: **hjin@example.edu**
+1. Send your application materials to: **jinhx@ucmail.uc.edu**
 2. Use subject line: "PhD Application - [Position Title]"
 3. Applications will be reviewed on a rolling basis
 4. Selected candidates will be invited for interviews
@@ -111,7 +111,7 @@ Our lab is located in a world-class research facility with access to:
 ## Contact Information
 
 **Principal Investigator:** Dr. Hanxun Jin  
-**Email:** hjin@example.edu  
+**Email:** jinhx@ucmail.uc.edu  
 **Lab Website:** [www.nanobiomech-lab.com](https://www.nanobiomech-lab.com)
 
 For questions about specific positions or the application process, please don't hesitate to reach out!
