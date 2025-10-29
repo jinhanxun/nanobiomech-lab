@@ -40,11 +40,13 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_VERSION: 0.120.0
+          WC_POST_CSS: true
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --ignoreCache
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

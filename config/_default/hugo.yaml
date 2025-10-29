@@ -1,15 +1,10 @@
-baseURL: 'https://nanobiomech-lab.com'
+baseURL: 'https://jinhanxun.github.io/nanobiomech-lab/'
 languageCode: 'en-us'
 title: 'NanoBioMech-AI Lab'
-theme: 'github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5'
 
 # Disable problematic features
 disableHugoGeneratorInject: true
 disableKinds: ['taxonomy']
-
-# Output formats
-outputs:
-  home: ['HTML', 'RSS', 'JSON']
 
 # Build settings
 buildDrafts: false
