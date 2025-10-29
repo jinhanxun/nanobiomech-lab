@@ -1,80 +1,98 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-10-28
 type: landing
 
 sections:
+  # ===== HERO =====
   - block: hero
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
+      title: "NanoBioMech-AI Lab"
       text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        Multiscale mechanics • Biomaterials • **AI-driven design**
+
+        We integrate in-situ experiments, multiscale modeling, and machine learning to
+        design resilient nano-bio-structured materials for healthcare and engineering.
+      image:
+        filename: hero.jpg
+      cta:
+        - label: "Research"
+          url: "/research/"
+        - label: "Publications"
+          url: "/publication/"
+    design:
+      background:
+        color: ""
+      spacing:
+        padding: ["40px","0","20px","0"]
+
+  # ===== RESEARCH TILES =====
+  - block: features
+    content:
+      title: "What we do"
+      items:
+        - name: "Bioinspired Materials"
+          description: "Resilient, sustainable, multifunctional composites"
+          icon: leaf
+          cta:
+            label: "Learn more"
+            url: "/research/bioinspired-materials/"
+        - name: "Single-Cell Mechanics"
+          description: "Micro/nano tools & mechanobiology"
+          icon: activity
+          cta:
+            label: "Learn more"
+            url: "/research/single-cell-mechanics/"
+        - name: "1D/2D Materials"
+          description: "In-situ experiments & multiscale modeling"
+          icon: layers
+          cta:
+            label: "Learn more"
+            url: "/research/2d-materials/"
+        - name: "Metamaterials & AI"
+          description: "Architected design, inverse models (DeepONet, GNN, PINNs)"
+          icon: grid
+          cta:
+            label: "Learn more"
+            url: "/research/metamaterials/"
+    design:
+      columns: "2"
+
+  # ===== LATEST NEWS (posts) =====
   - block: collection
     content:
-      title: Latest News
-      subtitle:
-      text:
+      title: "Latest News"
       count: 5
       filters:
-        author: ''
-        category: ''
+        page_type: post
         exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
       order: desc
-      page_type: post
     design:
       view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      columns: "1"
 
+  # ===== HIGHLIGHTED PUBLICATIONS / PREPRINTS =====
   - block: collection
     content:
-      title: Latest Preprints
+      title: "Latest Preprints & Publications"
       text: ""
       count: 5
       filters:
-        folders:
-          - publication
-        publication_type: 'article'
+        folders: ["publication"]
+        # You can narrow by type later, e.g. publication_type: 'article'
+      order: desc
     design:
       view: citation
-      columns: '1'
+      columns: "1"
 
+  # ===== PEOPLE & OPENINGS CTA =====
   - block: markdown
     content:
-      title:
-      subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="/people/" cta_text="Meet the team →" %}}
+
+        {{% cta cta_link="/openings/" cta_text="Join the lab →" %}}
     design:
-      columns: '1'
+      columns: "1"
 ---
