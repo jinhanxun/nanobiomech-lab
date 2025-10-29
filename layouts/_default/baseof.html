@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header { border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+        .nav { display: flex; gap: 20px; margin-top: 10px; }
+        .nav a { text-decoration: none; color: #333; }
+        .nav a:hover { color: #007bff; }
+        .content { margin-bottom: 30px; }
+        .footer { border-top: 1px solid #eee; padding-top: 20px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>{{ .Site.Title }}</h1>
+            <p>{{ .Site.Params.description }}</p>
+            <nav class="nav">
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            </nav>
+        </header>
+        
+        <main class="content">
+            {{ .Content }}
+        </main>
+        
+        <footer class="footer">
+            <p>{{ .Site.Params.footer.copyright.content }}</p>
+        </footer>
+    </div>
+</body>
+</html>

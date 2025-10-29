@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+</div>
+
+{{ if .Params.sections }}
+{{ range .Params.sections }}
+{{ if eq .block "hero" }}
+<div class="hero-section">
+    <h1>{{ .content.title }}</h1>
+    <p>{{ .content.text | markdownify }}</p>
+    {{ if .content.image }}
+    <img src="{{ .content.image.filename }}" alt="{{ .content.title }}" style="max-width: 100%; height: auto;">
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if eq .block "features" }}
+<div class="features-section">
+    <h2>{{ .content.title }}</h2>
+    <div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+        {{ range .content.items }}
+        <div class="feature-card" style="border: 1px solid #eee; padding: 20px; border-radius: 8px;">
+            <h3>{{ .name }}</h3>
+            <p>{{ .description }}</p>
+            {{ if .cta }}
+            <a href="{{ .cta.url }}" style="color: #007bff; text-decoration: none;">{{ .cta.label }} →</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ if eq .block "markdown" }}
+<div class="markdown-section">
+    {{ .content.text | markdownify }}
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}

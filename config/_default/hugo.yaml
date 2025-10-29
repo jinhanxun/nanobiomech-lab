@@ -2,23 +2,18 @@ baseURL: 'https://jinhanxun.github.io/nanobiomech-lab/'
 languageCode: 'en-us'
 title: 'NanoBioMech-AI Lab'
 
-# Disable problematic features
+# Basic settings
 disableHugoGeneratorInject: true
-disableKinds: ['taxonomy']
+disableKinds: ['taxonomy', 'taxonomyTerm', 'RSS', 'sitemap']
 
 # Build settings
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# Security configuration to allow Wowchemy environment variables
-security:
-  enableInlineShortcodes: true
-  exec:
-    allow: ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
-    osEnv: ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
-  funcs:
-    getenv: ['^HUGO_', '^CI$', '^WC_']
-  http:
-    methods: ['(?i)GET|POST']
-    urls: ['.*']
+# Output formats
+outputs:
+  home: ['HTML']
+
+# Disable shortcodes that require themes
+disableShortcodes: true
