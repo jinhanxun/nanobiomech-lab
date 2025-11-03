@@ -3,21 +3,19 @@ title: "Publications"
 date: 2025-01-27
 type: page
 ---
-
-# Publications
-
-
 ## 2025
 
 ### **Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators**
 
-**H. Jin†, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamya, G. E. Karniadakis, H. D. Espinosa**
+**H. Jin, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamya, G. E. Karniadakis, H. D. Espinosa**
 
 *Advanced Materials* 2025, 2420063
 
 **DOI:** [10.1002/adma.202420063](https://doi.org/10.1002/adma.202420063)
 
-Machine learning (ML) is emerging as a transformative tool for the design of mechanical metamaterials, offering properties that far surpass those achievable through lab-based trial-and-error methods. However, a major challenge in current inverse design strategies is their reliance on extensive computational and/or experimental datasets, which becomes particularly problematic for designing micro-scale stochastic architected materials that exhibit nonlinear mechanical behaviors. Here, a comprehensive end-to-end scientific ML framework, leveraging deep neural operators (including DeepONet and its variants) is introduced, to directly learn the relationship between the complete microstructure and mechanical response of architected metamaterials from sparse but high-quality in situ experimental data.
+![DeepONet Framework](/images/papers/deeponet_figure_abstract.png)
+
+Machine learning (ML) is emerging as a transformative tool for the design of mechanical metamaterials, offering properties that far surpass those achievable through lab-based trial-and-error methods. However, a major challenge in current inverse design strategies is their reliance on extensive computational and/or experimental datasets, which becomes particularly problematic for designing micro-scale stochastic architected materials that exhibit nonlinear mechanical behaviors. Here, a comprehensive end-to-end scientific ML framework, leveraging deep neural operators (including DeepONet and its variants) is introduced, to directly learn the relationship between the complete microstructure and mechanical response of architected metamaterials from sparse but high-quality in situ experimental data. Various neural operators and standard neural networks are systematically compared to identify the model that offers better interpretability and accuracy. The approach facilitates the efficient inverse design of structures tailored to specific nonlinear mechanical behaviors. Results obtained from stochastic spinodal microstructures, printed using two-photon lithography, reveal that the prediction error for mechanical responses is within a range of 5 - 10%. This work underscores that by employing neural operators with advanced nano- and micro-mechanical experiments, the design of complex micro-architected materials with desired properties becomes feasible, even in scenarios constrained by data scarcity. This work marks a significant advancement in the field of materials-by-design, potentially heralding a new era in the discovery and development of next-generation metamaterials with unparalleled mechanical characteristics derived directly from experimental insights.
 
 ---
 
