@@ -65,15 +65,13 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Exclude centered images from floating */
-.page-content div[style*="text-align: center"] img {
+/* Exclude centered images from floating - MUST be centered */
+.page-content div[style*="text-align"] img,
+.page-content div[style*="text-align:"] img {
   float: none !important;
-  width: auto !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-  border: none !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Exclude team profile images from global image styling */
