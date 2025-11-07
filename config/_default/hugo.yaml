@@ -1,6 +1,6 @@
 baseURL: 'https://www.nanobiomech-lab.com/'
 languageCode: 'en-us'
-title: 'NanoBioMech-AI Lab'
+title: 'NanoBioMech Lab'
 
 # Basic settings
 disableHugoGeneratorInject: true
@@ -17,3 +17,9 @@ outputs:
 
 # Disable shortcodes that require themes
 disableShortcodes: true
+
+# Allow HTML in markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

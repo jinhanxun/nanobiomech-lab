@@ -1,0 +1,79 @@
+{{ define "main" }}
+<style>
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+.pub-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 40px;
+}
+
+.pub-page h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 1.5em;
+  border-bottom: none;
+}
+
+.pub-page h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.pub-page h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #000;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.pub-page p {
+  margin: 0.5em 0;
+  line-height: 1.6;
+}
+
+.pub-page strong {
+  font-weight: bold;
+}
+
+.pub-page em {
+  font-style: italic;
+}
+
+.pub-page a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.pub-page a:hover {
+  text-decoration: underline;
+}
+
+.pub-page hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+}
+
+/* Hide all images */
+.pub-page img {
+  display: none !important;
+}
+</style>
+
+<div class="pub-page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+{{ end }}

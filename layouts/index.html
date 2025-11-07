@@ -18,15 +18,15 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  color: var(--text-color);
+  color: #333;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
 }
 
 /* Main Layout */
@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 3rem;
-  margin-top: 2rem;
+  margin: 40px 100px 40px 100px;
 }
 
 /* Left Content */
@@ -54,13 +54,17 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background-image: linear-gradient(rgba(37, 99, 235, 0.2), rgba(30, 64, 175, 0.2)), url('/media/home_cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
-  padding: 80px 0;
+  padding: 50px 40px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  margin-bottom: 3rem;
+  margin: 0 0 1.5rem 0;
+  border-radius: 12px;
 }
 
 .hero::before {
@@ -70,8 +74,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-  opacity: 0.3;
+  background: transparent;
 }
 
 .hero-content {
@@ -80,19 +83,24 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  line-height: 1.2;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
   opacity: 0.9;
-  max-width: 600px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.6;
 }
 
 .hero-description {
@@ -228,9 +236,32 @@ body {
   line-height: 1.4;
 }
 
+/* Vision Section */
+.vision-section {
+  padding: 30px 0;
+}
+
+.vision-section .container {
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.vision-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.vision-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
 /* Features Section */
 .features {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .features h2 {
@@ -351,7 +382,7 @@ body {
 
 /* Publications */
 .publications {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .publications h2 {
@@ -379,6 +410,17 @@ body {
   color: var(--text-color);
 }
 
+.publication-item h3 a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.publication-item h3 a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .publication-item .authors {
   color: var(--text-light);
   margin-bottom: 0.3rem;
@@ -399,9 +441,23 @@ body {
 
 /* Responsive */
 @media (max-width: 968px) {
+  .container {
+    padding: 0;
+  }
+  
+  .vision-section .container {
+    padding: 0;
+  }
+  
+  .hero {
+    padding: 50px 20px;
+    margin: 0 0 1.5rem 0;
+  }
+  
   .main-layout {
     grid-template-columns: 1fr;
     gap: 2rem;
+    margin: 40px 40px 40px 40px;
   }
   
   .sidebar {
@@ -442,6 +498,17 @@ body {
             {{ end }}
           </div>
           {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if eq .block "markdown" }}
+    <section class="vision-section">
+      <div class="container">
+        <h2>{{ .content.title }}</h2>
+        <div class="vision-content">
+          {{ .content.text | markdownify }}
         </div>
       </div>
     </section>
@@ -493,7 +560,11 @@ body {
         <div class="publication-list">
           {{ range .content.items }}
           <div class="publication-item">
+            {{ if .doi }}
+            <h3><a href="{{ .doi }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+            {{ else }}
             <h3>{{ .title }}</h3>
+            {{ end }}
             <div class="authors">{{ .authors }}</div>
             <div class="journal">{{ .journal }}</div>
             <div class="year">{{ .year }}</div>
@@ -515,7 +586,7 @@ body {
         <img src="/images/profile.jpg" alt="Dr. Hanxun Jin">
       </div>
       <div class="profile-name">Dr. Hanxun Jin</div>
-      <div class="profile-title">Principal Investigator<br>NanoBioMech-AI Lab</div>
+      <div class="profile-title">Principal Investigator<br>NanoBioMech Lab</div>
     </div>
 
     <!-- Contact Section -->
@@ -526,20 +597,12 @@ body {
         <a href="mailto:jinhx@ucmail.uc.edu">jinhx@ucmail.uc.edu</a>
       </div>
       <div class="contact-item">
-        <strong>Phone:</strong>
-        <span>(555) 123-4567</span>
-      </div>
-      <div class="contact-item">
-        <strong>Office:</strong>
-        <span>Building 123, Room 456</span>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/hanxun-jin/" target="_blank">hanxun-jin</a>
       </div>
       <div class="contact-item">
         <strong>Twitter:</strong>
-        <a href="https://twitter.com/yourhandle">@yourhandle</a>
-      </div>
-      <div class="contact-item">
-        <strong>LinkedIn:</strong>
-        <a href="https://linkedin.com/in/yourprofile">yourprofile</a>
+        <a href="https://x.com/jin_hanxun" target="_blank">@jin_hanxun</a>
       </div>
     </div>
 
@@ -547,16 +610,8 @@ body {
     <div class="news-section">
       <h3>News</h3>
       <div class="news-item">
-        <div class="news-date">2024/12</div>
-        <div class="news-title">New paper accepted in Nature Materials</div>
-      </div>
-      <div class="news-item">
-        <div class="news-date">2024/11</div>
-        <div class="news-title">Lab receives NSF grant for AI-driven materials research</div>
-      </div>
-      <div class="news-item">
-        <div class="news-date">2024/10</div>
-        <div class="news-title">Welcome to our new PhD students!</div>
+        <div class="news-date">Jan 2026</div>
+        <div class="news-title">🔬 Lab opening at UC! Now recruiting PhD students for Spring/Fall 2026.</div>
       </div>
     </div>
   </div>

@@ -1,121 +1,105 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2025-10-28
+date: 2025-11-07
 type: landing
 
 sections:
   # ===== HERO =====
   - block: hero
     content:
-      title: "NanoBioMech-AI Lab"
+      title: "NanoBioMech Lab"
       text: |
-        **Multiscale mechanics** • **Biomaterials** • **AI-driven design**
+        • **Experimental Mechanics** • **BioManufacturing** • **Mechanobiology** •**Scientific AI/ML**
 
-        We integrate in-situ experiments, multiscale modeling, and machine learning to
-        design resilient nano-bio-structured materials for healthcare and engineering.
       image:
-        filename: welcome.jpg
+        filename: home_cover.png
       cta:
         - label: "Research"
           url: "/research/"
-        - label: "Publications"
-          url: "/publications/"
+        - label: "Join Us"
+          url: "/openings/"
     design:
       background:
         color: ""
       spacing:
         padding: ["40px","0","20px","0"]
 
-  # ===== RESEARCH TILES =====
+  # ===== OUR VISION =====
+  - block: markdown
+    content:
+      title: "Our Vision"
+      text: |
+        We envision a future where nano-bio-structured materials revolutionize personalized healthcare and sustainable engineering. By bridging experimental mechanics, biomanufacturing, and artificial intelligence, we aim to create a new generation of materials that adapt, heal, and perform like living systems—ushering in transformative solutions for human health.
+    design:
+      columns: "1"
+
+  # ===== RESEARCH AREAS =====
   - block: features
     content:
-      title: "What we do"
+      title: "Research Areas"
       items:
-        - name: "Bioinspired Materials"
-          description: "Resilient, sustainable, multifunctional composites inspired by nature's design principles"
+        - name: "Biomanufacturing & Mechanobiology"
+          description: "Sustainable bioinks, bio-printing, and multiscale characterization of cell-matrix interactions"
           icon: leaf
           cta:
             label: "Learn more"
-            url: "/research/bioinspired-materials/"
-        - name: "Single-Cell Mechanics"
-          description: "Micro/nano tools & mechanobiology for understanding cellular behavior"
-          icon: activity
-          cta:
-            label: "Learn more"
-            url: "/research/single-cell-mechanics/"
-        - name: "1D/2D Materials"
-          description: "In-situ experiments & multiscale modeling of nanomaterials"
-          icon: layers
-          cta:
-            label: "Learn more"
-            url: "/research/2d-materials/"
-        - name: "Metamaterials & AI"
-          description: "Architected design, inverse models (DeepONet, GNN, PINNs)"
+            url: "/research/#topic-1-biomanufacturing-and-multiscale-mechanobiological-characterization"
+        - name: "AI/ML-Driven Materials Design"
+          description: "Neural operators, PINNs, and graph neural networks for rapid design and characterization of nano-bio-structured materials"
           icon: grid
           cta:
             label: "Learn more"
-            url: "/research/metamaterials/"
+            url: "/research/#topic-2"
 
-  # ===== RESEARCH HIGHLIGHTS =====
-  - block: research
+  # ===== ABOUT US =====
+  - block: markdown
     content:
-      title: "Research Highlights"
-      items:
-        - title: "AI-Driven Biomaterial Design"
-          description: "Machine learning approaches for designing bioinspired materials with tailored mechanical properties"
-          icon: "🧬"
-          journal: "Nature Materials"
-          year: "2024"
-        - title: "Multiscale Mechanics of 2D Materials"
-          description: "Understanding failure mechanisms in 2D materials through in-situ experiments and modeling"
-          icon: "⚛️"
-          journal: "Science Advances"
-          year: "2024"
-        - title: "Single-Cell Mechanobiology"
-          description: "Novel microfluidic platforms for studying cellular mechanics and mechanotransduction"
-          icon: "🔬"
-          journal: "Cell"
-          year: "2023"
-        - title: "Metamaterial Optimization"
-          description: "Physics-informed neural networks for inverse design of architected materials"
-          icon: "🏗️"
-          journal: "Advanced Materials"
-          year: "2023"
+      title: "About Us"
+      text: |
+        Dr. Hanxun Jin will join the Department of Mechanical and Materials Engineering at the University of Cincinnati as an Assistant Professor in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern. He obtained his Ph.D. from Brown University in 2022. His research focuses on developing experimental, computational, and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His research has been published in leading journals including *Advanced Materials*, *Science Advances*, *Journal of the Mechanics and Physics of Solids*, and *Applied Mechanics Reviews*.
+    design:
+      columns: "1"
 
   # ===== PUBLICATIONS =====
   - block: publications
     content:
-      title: "Recent Publications"
+      title: "Selected Publications"
       items:
-        - title: "Machine Learning-Driven Design of Bioinspired Materials"
-          authors: "Jin, H., Smith, A., Johnson, B."
-          journal: "Nature Materials"
-          year: "2024"
-        - title: "Multiscale Modeling of 2D Material Failure"
-          authors: "Jin, H., Chen, L., Wang, M."
-          journal: "Science Advances"
-          year: "2024"
-        - title: "Single-Cell Mechanics in Microfluidic Environments"
-          authors: "Jin, H., Brown, K., Davis, R."
-          journal: "Cell"
-          year: "2023"
-        - title: "Physics-Informed Neural Networks for Metamaterial Design"
-          authors: "Jin, H., Wilson, T., Lee, S."
+        - title: "Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators"
+          authors: "H. Jin, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamy, G.E. Karniadakis, H.D. Espinosa"
           journal: "Advanced Materials"
+          year: "2025"
+          doi: "https://doi.org/10.1002/adma.202420063"
+        - title: "Recent advances and applications of machine learning in experimental solid mechanics: A review"
+          authors: "H. Jin, E. Zhang, H.D. Espinosa†"
+          journal: "Applied Mechanics Reviews"
           year: "2023"
-        - title: "Bioinspired Composite Materials for Healthcare Applications"
-          authors: "Jin, H., Garcia, M., Thompson, P."
-          journal: "Materials Today"
+          doi: "https://doi.org/10.1115/1.4062966"
+        - title: "Dynamic fracture of a bicontinuously nanostructured copolymer: A deep-learning analysis of big-data-generating experiment"
+          authors: "H. Jin, T. Jiao, R.J. Clifton, K.-S. Kim†"
+          journal: "Journal of the Mechanics and Physics of Solids"
+          year: "2022"
+          doi: "https://doi.org/10.1016/j.jmps.2022.104898"
+        - title: "Ultrastrong colloidal crystal metamaterials engineered with DNA"
+          authors: "Y. Li*, H. Jin*, W. Zhou, Z. Wang, Z. Lin, C.A. Mirkin†, H.D. Espinosa†"
+          journal: "Science Advances"
           year: "2023"
+          doi: "https://doi.org/10.1126/sciadv.adj8103"
+        - title: "Identifying constitutive parameters for complex hyperelastic materials using physics-informed neural networks"
+          authors: "S. Song, H. Jin†"
+          journal: "Soft Matter"
+          year: "2024"
+          doi: "https://doi.org/10.1039/D4SM00001C"
 
   # ===== PEOPLE & OPENINGS CTA =====
   - block: markdown
     content:
       text: |
-        {{% cta cta_link="/team/" cta_text="Meet the team →" %}}
-
-        {{% cta cta_link="/openings/" cta_text="Join the lab →" %}}
+        <div style="display: flex; gap: 2rem; justify-content: center; margin: 3rem 0;">
+          <a href="/team/" style="background: #2563eb; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">Meet the team →</a>
+          <a href="/openings/" style="background: #2563eb; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">Join the lab →</a>
+        </div>
     design:
       columns: "1"
 ---

@@ -1,5 +1,5 @@
 # Site information
-title: 'NanoBioMech-AI Lab'
+title: 'NanoBioMech Lab'
 description: 'Integrating Mechanics, Machine Learning, and Biomaterials for Resilient Design.'
 
 # Site header
@@ -30,4 +30,4 @@ header:
 footer:
   copyright:
     enable: true
-    content: 'NanoBioMech-AI Lab'
+    content: 'NanoBioMech Lab'

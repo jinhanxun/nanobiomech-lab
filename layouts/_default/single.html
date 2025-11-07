@@ -1,7 +1,124 @@
 {{ define "main" }}
-<div class="hero">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.page-content {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 0 100px;
+}
+
+.page-content h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+}
+
+.page-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.page-content h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  clear: both;
+}
+
+.page-content p,
+.page-content li,
+.page-content {
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+.page-content ul,
+.page-content ol {
+  padding-left: 2.5em;
+  margin: 1em 0;
+}
+
+.page-content li {
+  margin: 0.5em 0;
+}
+
+.page-content strong {
+  font-weight: 600;
+}
+
+.page-content img {
+  float: right;
+  width: 350px !important;
+  max-width: 350px !important;
+  height: auto;
+  margin: 0 0 1.5rem 2rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Exclude centered images from floating */
+.page-content div[style*="text-align: center"] img {
+  float: none !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Exclude team profile images from global image styling */
+.page-content div[style*="grid"] img {
+  float: none !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Allow inline width styles to work for research vision images */
+.page-content h2 + img[style*="width"] {
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Two-column layout: abstract left, image right */
+.page-content img + p,
+.page-content img + p + p {
+  max-width: calc(100% - 400px);
+}
+
+.page-content a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.page-content a:hover {
+  text-decoration: underline;
+}
+
+.page-content hr {
+  clear: both;
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+</style>
+
+<div class="page-content">
     <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
+    {{ .Content }}
 </div>
 
 {{ if .Params.sections }}
