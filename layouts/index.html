@@ -442,7 +442,13 @@ body {
 /* Responsive */
 @media (max-width: 968px) {
   .container {
-    padding: 0;
+    padding: 0 20px;
+  }
+  
+  .vision-section,
+  .features,
+  .publications {
+    padding: 30px 20px;
   }
   
   .vision-section .container {
@@ -450,14 +456,15 @@ body {
   }
   
   .hero {
-    padding: 50px 20px;
-    margin: 0 0 1.5rem 0;
+    padding: 40px 20px;
+    margin: 0 0 1rem 0;
+    border-radius: 8px;
   }
   
   .main-layout {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    margin: 40px 40px 40px 40px;
+    gap: 1.5rem;
+    margin: 20px 20px;
   }
   
   .sidebar {
@@ -466,7 +473,14 @@ body {
   }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    max-width: 100%;
   }
   
   .features-grid,
@@ -474,9 +488,61 @@ body {
     grid-template-columns: 1fr;
   }
   
+  .feature-card,
+  .publication-item {
+    padding: 1rem;
+  }
+  
   .hero-cta {
     flex-direction: column;
     align-items: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .vision-section,
+  .features,
+  .publications {
+    padding: 20px 15px;
+  }
+  
+  .hero {
+    padding: 30px 15px;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  .main-layout {
+    margin: 15px 15px;
+  }
+  
+  .hero h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card,
+  .publication-item {
+    padding: 0.8rem;
+  }
+  
+  .sidebar {
+    padding: 1.5rem;
   }
 }
 </style>
