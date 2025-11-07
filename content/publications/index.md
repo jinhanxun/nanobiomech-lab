@@ -5,7 +5,7 @@ type: page
 ---
 
 <div style="text-align: center; margin: 2rem auto 3rem auto; background: #f0f9ff; padding: 2rem; border-radius: 8px;">
-  <img src="/images/papers/coverimages.png" alt="Journal Covers">
+  <img src="/images/papers/coverimages.png" alt="Journal Covers" style="width: 100% !important; max-width: 100% !important; height: auto !important; display: block !important;">
 </div>
 
 ---
