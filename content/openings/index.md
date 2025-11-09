@@ -14,7 +14,7 @@ The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting h
 
 Successful candidates will work on projects in one or more of the following areas:
 
-### 1. Biomanufacturing and Multiscale Characterization of Nano-Bio-Structures
+### 1. Advanced Manufacturing and Multiscale Characterization of Nano-Bio-Structures
 
 - Sustainable bioinks development and bioprinting/fabrication
 - Multiscale mechanical testing (nanoindentation, AFM, in situ testing)
@@ -22,9 +22,9 @@ Successful candidates will work on projects in one or more of the following area
 
 ### 2. AI/ML-Driven Materials Design
 
-- Neural operators for inverse design
-- Physics-informed neural networks (PINNs) for constitutive modeling
-- Graph neural networks for architected nano-bio-materials
+- Neural operators for metamaterial inverse design
+- Physics-informed neural networks for constitutive modeling
+- Novel scientific ML methods for translational healthcare (e.g., wound healing, tissue scaffold optimization, personalized implant design)
 
 ---
 
@@ -43,7 +43,7 @@ Successful candidates will work on projects in one or more of the following area
 
 - **Competitive funding** — Full stipend and tuition coverage for PhD students
 - **State-of-the-art facilities** — Advanced mechanical testing, microscopy, and computational resources
-- **Collaborative environment** — Work with leading collaboraters at Washington University, Northwestern, and U Cincinnati Medical School
+- **Collaborative environment** — Work with leading collaborators across the world's top engineering and medical programs
 - **Professional development** — Conference travel, workshop participation, and career mentoring
 - **Vibrant location** — Cincinnati offers affordable living, rich culture, and proximity to major research hubs
 
@@ -54,7 +54,7 @@ Successful candidates will work on projects in one or more of the following area
 Please send the following materials in one combined PDF to **jinhx@ucmail.uc.edu** with the subject line: **"PhD Application - [Your Name]"**
 
 - CV/Resume
-- Brief statement of research interests
+- Brief statement of research interests (no more than 1 page)
 - Transcripts (unofficial copies acceptable)
 - Contact information for 1-2 references
 - Representative publications or research samples (if any)

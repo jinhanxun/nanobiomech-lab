@@ -10,7 +10,7 @@ sections:
     content:
       title: "NanoBioMech Lab"
       text: |
-        • **Experimental Mechanics** • **BioManufacturing** • **Mechanobiology** •**Scientific AI/ML**
+        • **Experimental Mechanics** • **BioManufacturing** • **Mechanobiology** • **Scientific AI/ML**
 
       image:
         filename: home_cover.png
@@ -57,7 +57,7 @@ sections:
     content:
       title: "About Us"
       text: |
-        Dr. Hanxun Jin will join the Department of Mechanical and Materials Engineering at the University of Cincinnati as an Assistant Professor in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern. He obtained his Ph.D. from Brown University in 2022. His research focuses on developing experimental, computational, and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His research has been published in leading journals including *Advanced Materials*, *Science Advances*, *Journal of the Mechanics and Physics of Solids*, and *Applied Mechanics Reviews*.
+        Dr. Hanxun Jin will join the Department of Mechanical and Materials Engineering at the University of Cincinnati as an Assistant Professor in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern. He obtained his Ph.D. in solid mechanics from Brown University in 2022. His research focuses on developing experimental, computational, and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His research has been published in leading journals including *Advanced Materials*, *Science Advances*, *Journal of the Mechanics and Physics of Solids*, and *Applied Mechanics Reviews*.
     design:
       columns: "1"
 
@@ -67,7 +67,7 @@ sections:
       title: "Selected Publications"
       items:
         - title: "Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators"
-          authors: "H. Jin, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamy, G.E. Karniadakis, H.D. Espinosa"
+          authors: "H. Jin, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamy, G.E. Karniadakis, H.D. Espinosa†"
           journal: "Advanced Materials"
           year: "2025"
           doi: "https://doi.org/10.1002/adma.202420063"
@@ -96,7 +96,7 @@ sections:
   - block: markdown
     content:
       text: |
-        <div style="display: flex; gap: 2rem; justify-content: center; margin: 3rem 0;">
+        <div style="display: flex; gap: 2rem; justify-content: center; margin: 2rem 0 1rem 0;">
           <a href="/team/" style="background: #2563eb; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">Meet the team →</a>
           <a href="/openings/" style="background: #2563eb; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">Join the lab →</a>
         </div>

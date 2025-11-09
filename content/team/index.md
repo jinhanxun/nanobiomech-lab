@@ -16,7 +16,7 @@ type: page
 
 <h3 style="margin-top: 0; font-size: 1.6em;">Hanxun Jin, Ph.D.</h3>
 
-Hanxun will join as an Assistant Professor in the Department of Mechanical and Materials Engineering at the University of Cincinnati in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern University, working with Drs. Guy Genin, Julia Greer, and Horacio Espinosa. He obtained his Ph.D. from Brown University under the supervision of Dr. Kyung-Suk Kim. His research focuses on developing experimental, computational and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His work integrates experimental solid mechanics, scientific machine learning (neural operators, PINNs), high-throughput nanomechanics, and sustainable materials fabrication for healthcare and engineering applications.
+Hanxun will join as an Assistant Professor in the Department of Mechanical and Materials Engineering at the University of Cincinnati in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern University, working with Drs. Guy Genin, Julia Greer, and Horacio Espinosa. He obtained his Ph.D. from Brown University under the supervision of Dr. Kyung-Suk Kim. His research focuses on integrating experimental solid mechanics, scientific machine learning (neural operators, PINNs), high-throughput nanomechanics, and sustainable materials fabrication for healthcare and engineering applications.
 
 **Email:** jinhx@ucmail.uc.edu | [Google Scholar](https://scholar.google.com/citations?hl=en&user=YkbrAZAAAAAJ&view_op=list_works&sortby=pubdate) | [LinkedIn](https://www.linkedin.com/in/hanxun-jin/)
 

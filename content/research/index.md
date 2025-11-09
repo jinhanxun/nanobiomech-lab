@@ -38,9 +38,6 @@ We design and fabricate nano-bio-structured materials that emulate the structura
 
 - **<u>H. Jin</u>***, Y. Huang\*, J. Jeon, M. Mudiyanselage, F. Zhang, M. Foston, G.M. Genin. "Generic nanostructural mechanics and multiscale modeling of programmable protein-based hydrogels." ***In preparation***, 2025.
 
-- **<u>H. Jin</u>**, T. Anttonen, A. Mekkanakkil, A. Phan, O. Tchaicheeyan, R. Zaera Polo, B. Mortimer, A. Lesman, G.M. Genin. "Vibrational mechanobiology: the role of the extracellular matrix." ***In preparation***, 2025.
-
-- Z. Wang, H. Li, **<u>H. Jin</u>**, M. Senanayake, S.V. Pingali, W. Goldberg, D. Kobayashi, G.M. Genin, M. Foston. "Tuning sustainable nanocomposite interphase behavior through surface modification of cellulose nanocrystals." ***Polymer Composites***, 2025. [DOI: 10.1002/pc.70050](https://doi.org/10.1002/pc.70050)
 
 - Y. Li\*, **<u>H. Jin</u>**\*, W. Zhou, Z. Wang, Z. Lin, C.A. Mirkin, H.D. Espinosa. "Ultrastrong colloidal crystal metamaterials engineered with DNA." ***Science Advances***, 2023. [DOI: 10.1126/sciadv.adj8103](https://doi.org/10.1126/sciadv.adj8103)
 
@@ -59,7 +56,7 @@ We envision a future where AI-driven design transforms materials discovery from 
 
 - **Physics-Informed Neural Networks (PINNs) for Mechanistic Learning:** To ensure interpretability and physical fidelity, we embed mechanical governing equations, boundary conditions, and conservation laws into neural networks. We apply them to capture multiscale hyperelastic and viscoelastic responses of biological tissues and hydrogels, linking molecular assembly to macroscopic function.
 
-- **Translational AI for Biomedical Devices and Mechanobiology:** Integrating these AI surrogates with inverse and generative design algorithms (e.g., genetic algorithms, reinforcement learning), we explore vast design spaces for biomedical and mechanobiological applications. This includes rapid prototyping of bio-inspired scaffolds, and cardiac tissue models, where optimized architectures balance mechanical performance, biocompatibility, and cellular mechanotransduction. Our long-term vision is to establish a closed-loop AI-assisted platform for intelligent design, fabrication, and mechanical characterization of functional bio-materials.
+- **Translational AI for Biomedical Devices and Mechanobiology:** Integrating these AI surrogates with inverse and generative design algorithms (e.g., genetic algorithms, reinforcement learning), we explore vast design spaces for biomedical and mechanobiological applications. This includes rapid prototyping of bio-inspired scaffolds and cardiac tissue models, where optimized architectures balance mechanical performance, biocompatibility, and cellular mechanotransduction. Our long-term vision is to establish a closed-loop AI-assisted platform for intelligent design, fabrication, and mechanical characterization of functional bio-materials.
 
 
 <div style="text-align: center; margin: 2rem 0;">
@@ -72,7 +69,7 @@ We envision a future where AI-driven design transforms materials discovery from 
 
 - S. Song, **<u>H. Jin</u>**†. "Identifying constitutive parameters for complex hyperelastic materials using physics-informed neural networks." ***Soft Matter***, 2024. [DOI: 10.1039/D4SM00001C](https://doi.org/10.1039/D4SM00001C)
 
-- **<u>H. Jin</u>**, E. Zhang, H.D. Espinos†. "Recent advances and applications of machine learning in experimental solid mechanics: A review." ***Applied Mechanics Reviews***, 2023. [DOI: 10.1115/1.4062966](https://doi.org/10.1115/1.4062966)
+- **<u>H. Jin</u>**, E. Zhang, H.D. Espinosa†. "Recent advances and applications of machine learning in experimental solid mechanics: A review." ***Applied Mechanics Reviews***, 2023. [DOI: 10.1115/1.4062966](https://doi.org/10.1115/1.4062966)
 
 - **<u>H. Jin</u>**, T. Jiao, R.J. Clifton, K.-S. Kim†. "Dynamic fracture of a bicontinuously nanostructured copolymer: A deep-learning analysis of big-data-generating experiment." ***Journal of the Mechanics and Physics of Solids***, 2022. [DOI: 10.1016/j.jmps.2022.104898](https://doi.org/10.1016/j.jmps.2022.104898)
 

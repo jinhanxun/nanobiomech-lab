@@ -140,10 +140,57 @@ body {
     max-width: 100%;
   }
   
-  /* Keep centered images centered on mobile */
+  /* Centered images - full width on mobile */
   .page-content div[style*="text-align"] img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  /* Coverimages specifically - fit to blue box width */
+  .page-content div[style*="background: #f0f9ff"][style*="text-align: center"] {
+    padding: 1rem !important;
+    margin: 1rem auto 1.5rem auto !important;
+  }
+  
+  .page-content div[style*="background: #f0f9ff"] img[src*="coverimages"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+  
+  /* Vision box image on research page - single column */
+  .page-content div[style*="background: #f0f9ff"] {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 2rem 0.5rem 3rem 0.5rem !important;
+    align-items: center !important;
+    overflow: hidden !important;
+    margin: 0 -20px !important;
+  }
+  
+  .page-content div[style*="background: #f0f9ff"] img {
     width: 90% !important;
     max-width: 90% !important;
+    float: none !important;
+    margin: 2rem auto !important;
+    order: 2 !important;
+    display: block !important;
+    transform: scale(1.6) !important;
+    transform-origin: center !important;
+  }
+  
+  .page-content div[style*="background: #f0f9ff"] p {
+    text-align: center !important;
+    font-size: 1.2em !important;
+    order: 1 !important;
+    margin-bottom: 3rem !important;
+    padding: 0 1rem !important;
   }
   
   /* Grid layout for team page */
