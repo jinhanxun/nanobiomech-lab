@@ -64,7 +64,7 @@ Renewable protein matrix nanocomposites reinforced with high-aspect-ratio cellul
 
 J. Jeon, Z. Wang, H. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Lee, S.V. Subramani, L. Belaygorod, B. Arif, Y. Yu, G.M. Genin, M. Foston, M.A. Zayed, F. Zhang†
 
-![Protein-Cellulose Composite Hydrogels](/images/papers/small2026_abstract.png)
+![Protein-Cellulose Composite Hydrogels](/images/papers/small2026_abstract.jpg)
 
 ***Small*** 2026, 22(23), e06184
 
@@ -80,7 +80,7 @@ Strong underwater-setting adhesives hold transformative potential for tissue rep
 
 **<u>H. Jin</u>**, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamya, G. E. Karniadakis, H. D. Espinosa†
 
-![DeepONet Framework](/images/papers/deeponet_figure_abstract.png)
+![DeepONet Framework](/images/papers/deeponet_figure_abstract.jpg)
 
 ***Advanced Materials*** 2025, 2420063
 
@@ -108,7 +108,7 @@ Sustainable alternatives to petroleum-based plastics are needed urgently, but bi
 
 S. Song, **<u>H. Jin</u>**†
 
-![PINN Framework](/images/papers/PINN_indentify_figure_abstract.png)
+![PINN Framework](/images/papers/PINN_indentify_figure_abstract.jpg)
 
 ***Soft Matter*** 2024, 20(30), 5915-5926
 
@@ -126,7 +126,7 @@ Identifying constitutive parameters in engineering and biological materials, par
 
 **DOI:** [10.1115/1.4064144](https://doi.org/10.1115/1.4064144)
 
-![Self-Assembly Metamaterials](/images/papers/Assembly_JAM_figure_abstract.png)
+![Self-Assembly Metamaterials](/images/papers/Assembly_JAM_figure_abstract.jpg)
 
 Mechanical metamaterials, whose unique mechanical properties stem from their structural design rather than material constituents, are gaining popularity in engineering applications. In particular, recent advances in self-assembly techniques offer the potential to fabricate load-bearing mechanical metamaterials with unparalleled feature size control and scalability compared to those produced by additive manufacturing (AM). Yet, the field is still in its early stages. In this perspective, we first provide an overview of the state-of-the-art self-assembly techniques, with a focus on the copolymer and colloid crystal self-assembly processes. We then discuss current challenges and future opportunities in this research area, focusing on novel fabrication approaches, the need for high-throughput characterization methods, and the integration of Machine Learning (ML) and lab automation for inverse design. Given recent progress in all these areas, we foresee mechanical metamaterials fabricated from self-assembly techniques impacting a variety of applications relying on lightweight, strong, and tough materials.
 
