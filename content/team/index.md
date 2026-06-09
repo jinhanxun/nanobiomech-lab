@@ -6,21 +6,46 @@ type: page
 
 ## Principal Investigator
 
-<div style="display: grid; grid-template-columns: 200px 1fr; gap: 3rem; margin-bottom: 2rem; align-items: center;">
+<div style="display: grid; grid-template-columns: 150px 1fr; gap: 2rem; margin-bottom: 2rem; align-items: center;">
 <div style="text-align: center;">
 
-<img src="/images/team/Jin_profile.jpg" alt="Hanxun Jin" style="width: 200px !important; height: 200px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important; margin: 0 auto !important;">
+<img src="/images/team/Jin_profile.jpg" alt="Hanxun Jin" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important; margin: 0 auto !important;">
 
 </div>
 <div>
 
 <h3 style="margin-top: 0; font-size: 1.6em;">Hanxun Jin, Ph.D.</h3>
 
-Hanxun will join as an Assistant Professor in the Department of Mechanical and Materials Engineering at the University of Cincinnati in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern University, working with Drs. Guy Genin, Julia Greer, and Horacio Espinosa. He obtained his Ph.D. from Brown University under the supervision of Dr. Kyung-Suk Kim. His research focuses on integrating experimental solid mechanics, scientific machine learning (neural operators, PINNs), high-throughput nanomechanics, and sustainable materials fabrication for healthcare and engineering applications.
+Hanxun joined as an Assistant Professor in the Department of Mechanical and Materials Engineering at the University of Cincinnati in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern University. He obtained his Ph.D. from Brown University. His research focuses on integrating experimental solid mechanics, scientific machine learning, high-throughput nanomechanics, and sustainable materials fabrication for healthcare and engineering applications.
 
 **Email:** jinhx@ucmail.uc.edu | [Google Scholar](https://scholar.google.com/citations?hl=en&user=YkbrAZAAAAAJ&view_op=list_works&sortby=pubdate) | [LinkedIn](https://www.linkedin.com/in/hanxun-jin/)
 
 </div>
+</div>
+
+---
+
+## Graduate Students
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
+
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
+<img src="/images/team/Elif_profile.jpg" alt="Elif Dursun" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Elif Dursun</h3>
+
+PhD Student in Materials Science
+
+**Email:** sahineb@mail.uc.edu | [LinkedIn](https://www.linkedin.com/in/elif-dursun-a8403620a/)
+
+</div>
+</div>
+
 </div>
 
 ---
