@@ -6,6 +6,9 @@ main:
   - name: Home
     url: /
     weight: 10
+  - name: News
+    url: /news/
+    weight: 15
   - name: Team
     url: /team/
     weight: 20
@@ -15,9 +18,9 @@ main:
   - name: Publications
     url: /publications/
     weight: 40
-  - name: News
-    url: /news/
-    weight: 50
+  - name: Teaching
+    url: /teaching/
+    weight: 45
   - name: Openings
     url: /openings/
     weight: 60
