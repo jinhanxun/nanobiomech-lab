@@ -12,26 +12,6 @@ type: page
 
 ## Work in progress
 
-### arXiv
-
-**Domain Structure and Interface Control of Mechanical Stiffness in Sustainable Cellulose Bio-nanocomposites**
-
-**<u>H. Jin</u>**, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin†
-
-***arXiv*** 2024 | **arXiv:** [2412.13210](https://arxiv.org/abs/2412.13210)
-
----
-
-### In revision
-
-**Engineered protein-cellulose composite hydrogels with superior mechanical performance for bioadhesion**
-
-J. Jeon, Z. Wang, M. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Lee, S.V. Subramani, L. Belaygorod, B. Arif, G.M. Genin, M. Foston, M.A. Zayed, F. Zhang†
-
-***In revision*** 2025
-
----
-
 ### In preparation
 
 **Generic nanostructural mechanics and multiscale modeling of programmable protein-based hydrogels**
@@ -63,6 +43,34 @@ J. Jeon, Z. Wang, M. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Le
 **DOI:** [10.1038/s41563-026-02601-x](https://doi.org/10.1038/s41563-026-02601-x)
 
 Recent advances in instrumentation have sparked a transformative journey in materials science, providing insights into the intricate relationship between processing, structure and properties. Among them, cutting-edge in situ micro- and nanoscale mechanical characterization methods, equipped with exceptional spatial and temporal resolution, such as instrumented electron microscopy, X-ray imaging and opto-acoustic techniques, have opened new frontiers in the study of emerging functional and architected materials, including low-dimensional materials, bio-inspired materials and three-dimensional architected metamaterials, underscoring the versatility of these innovative characterization techniques. Furthermore, the integration of artificial intelligence and machine learning offers promising opportunities to streamline high-throughput experimentation processes and enhance the efficiency and accuracy of characterization, and promote the design of next-generation materials. This Review provides a comprehensive overview of the latest micro- and nanoscale mechanical characterization methods. We highlight their interdisciplinary applications to functional and architected materials in the pursuit of solutions for energy, sustainability, semiconductor technology and healthcare.
+
+---
+
+### **Competing Roles of Aggregation and Interfacial Interactions in Sustainable Protein/Cellulose Nanocrystal-Reinforced Soft Composites**
+
+**<u>H. Jin</u>**, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin†
+
+![Protein/CNC Soft Composites](/images/papers/SoftMatter_abstract.png)
+
+***Soft Matter*** 2026
+
+**DOI:** [10.1039/d6sm00329j](https://doi.org/10.1039/d6sm00329j)
+
+Renewable protein matrix nanocomposites reinforced with high-aspect-ratio cellulose nanocrystals (CNCs) offer promising alternatives to petroleum-based plastics. However, they exhibit mechanical properties far below theoretical predictions, often approaching the Hashin–Shtrikman lower bound despite filler geometries that should approach upper-bound behavior. This discrepancy suggests that microstructural features not captured in standard homogenization approaches dominate the mechanical response. We develop a hierarchical Mori–Tanaka framework that accounts for two competing effects: CNC agglomeration, which diminishes load transfer, and interphase stiffening at CNC–matrix interfaces, which enhances it. Applying this model to soy protein isolate (SPI) composites with unmodified and polydopamine-modified CNCs, we demonstrate attenuation of the high agglomeration inherent to SPI/CNC composites without diminishing favorable interfacial effects. Phase maps reveal conditions that could shift composite performance toward the upper bound, making SPI/CNC bio-nanocomposites a potential sustainable alternative to petroleum-based plastics.
+
+---
+
+### **Engineered Protein‐Cellulose Composite Hydrogels with Superior Mechanical Performance for Bioadhesion**
+
+J. Jeon, Z. Wang, H. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Lee, S.V. Subramani, L. Belaygorod, B. Arif, Y. Yu, G.M. Genin, M. Foston, M.A. Zayed, F. Zhang†
+
+![Protein-Cellulose Composite Hydrogels](/images/papers/small2026_abstract.png)
+
+***Small*** 2026, 22(23), e06184
+
+**DOI:** [10.1002/smll.202506184](https://doi.org/10.1002/smll.202506184)
+
+Strong underwater-setting adhesives hold transformative potential for tissue repair, yet achieving a combination of high adhesive strength, toughness, energy dissipation, and biocompatibility remains a critical challenge. To address this, we engineered a protein–cellulose composite hydrogel composed of microbially-produced hybrid proteins that incorporate silk, amyloid, and mussel foot protein (SAM) domains with polydopamine (PDA)-functionalized cellulose nanocrystals (CNCPDA). The PDA coating enables robust interfacial interactions between the CNC nanofillers and the SAM protein matrix, dramatically enhancing mechanical performance. Hydrogels containing 10% CNCPDA achieved a tensile strength of 4.9 ± 0.9 MPa, strain of 770% ± 33%, toughness of 17 MJ/m3, and damping energy of 202 ± 35 kJ/m3—representing 4.7-, 2-, 3.6-, and ninefold increases, respectively, compared to the unreinforced SAM hydrogel. Pre-stretching further aligned CNCPDA nanofillers within the matrix, enabling tunable enhancement in tensile modulus and ultimate strength. Critically, the composite hydrogels demonstrated strong adhesion to biological tissues, with adhesive strengths of 0.88 ± 0.25 MPa on porcine skin and 1.1 ± 0.3 MPa on bovine bone, far exceeding clinical thresholds for mechanical-demanding tissue adhesives, while maintaining biocompatibility. This synergistic integration of programmable protein design and functionalized nanomaterials provides a versatile platform for next-generation bioadhesives, addressing key unmet needs in bone repair and regenerative medicine.
 
 ---
 

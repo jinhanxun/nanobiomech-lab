@@ -57,7 +57,7 @@ sections:
     content:
       title: "About Us"
       text: |
-        Dr. Hanxun Jin will join the Department of Mechanical and Materials Engineering at the University of Cincinnati as an Assistant Professor in January 2026. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern. He obtained his Ph.D. in solid mechanics from Brown University in 2022. His research focuses on developing experimental, computational, and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His research has been published in leading journals including *Advanced Materials*, *Science Advances*, *Journal of the Mechanics and Physics of Solids*, and *Applied Mechanics Reviews*.
+        Dr. Hanxun Jin is an Assistant Professor in the Department of Mechanical and Materials Engineering at the University of Cincinnati. Before joining UC, he was a postdoctoral researcher at Washington University, Caltech, and Northwestern. He obtained his Ph.D. in solid mechanics from Brown University in 2022. His research focuses on developing experimental, computational, and AI tools to design resilient and sustainable nano-bio-materials for personalized healthcare and engineering applications. His research has been published in leading journals including *Nature Materials*, *Advanced Materials*, *Science Advances*, *Journal of the Mechanics and Physics of Solids*, and *Applied Mechanics Reviews*.
     design:
       columns: "1"
 
@@ -66,6 +66,16 @@ sections:
     content:
       title: "Selected Publications"
       items:
+        - title: "In situ mechanical characterization of functional and architected materials"
+          authors: "H. Jin, M. Chen, M. Kagias, M. Abi Ghanem, B. Zhang, H.D. Espinosa†"
+          journal: "Nature Materials"
+          year: "2026"
+          doi: "https://doi.org/10.1038/s41563-026-02601-x"
+        - title: "Competing Roles of Aggregation and Interfacial Interactions in Sustainable Protein/Cellulose Nanocrystal-Reinforced Soft Composites"
+          authors: "H. Jin, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin†"
+          journal: "Soft Matter"
+          year: "2026"
+          doi: "https://doi.org/10.1039/d6sm00329j"
         - title: "Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators"
           authors: "H. Jin, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamy, G.E. Karniadakis, H.D. Espinosa†"
           journal: "Advanced Materials"

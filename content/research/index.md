@@ -34,7 +34,9 @@ We design and fabricate nano-bio-structured materials that emulate the structura
 
 **Related work:**
 
-- **<u>H. Jin</u>**, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin. "Domain Structure and Interface Control of Mechanical Stiffness in Sustainable Cellulose Bio-nanocomposites." ***arXiv***, 2024. [arXiv: 2412.13210](https://arxiv.org/abs/2412.13210)
+- **<u>H. Jin</u>**, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin†. "Competing Roles of Aggregation and Interfacial Interactions in Sustainable Protein/Cellulose Nanocrystal-Reinforced Soft Composites." ***Soft Matter***, 2026. [DOI: 10.1039/d6sm00329j](https://doi.org/10.1039/d6sm00329j)
+
+- J. Jeon, Z. Wang, H. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Lee, S.V. Subramani, L. Belaygorod, B. Arif, Y. Yu, G.M. Genin, M. Foston, M.A. Zayed, F. Zhang†. "Engineered Protein‐Cellulose Composite Hydrogels with Superior Mechanical Performance for Bioadhesion." ***Small***, 2026. [DOI: 10.1002/smll.202506184](https://doi.org/10.1002/smll.202506184)
 
 - **<u>H. Jin</u>***, Y. Huang\*, J. Jeon, M. Mudiyanselage, F. Zhang, M. Foston, G.M. Genin. "Generic nanostructural mechanics and multiscale modeling of programmable protein-based hydrogels." ***In preparation***, 2025.
 
@@ -64,6 +66,8 @@ We envision a future where AI-driven design transforms materials discovery from 
 </div>
 
 **Related work:**
+
+- **<u>H. Jin</u>**, M. Chen, M. Kagias, M. Abi Ghanem, B. Zhang, H.D. Espinosa†. "In situ mechanical characterization of functional and architected materials." ***Nature Materials***, 2026. [DOI: 10.1038/s41563-026-02601-x](https://doi.org/10.1038/s41563-026-02601-x)
 
 - **<u>H. Jin</u>**, B. Zhang, Q. Cao, E. Zhang, A. Bora, S. Krishnaswamya, G.E. Karniadakis, H.D. Espinosa†. "Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators." ***Advanced Materials***, 2025. [DOI: 10.1002/adma.202420063](https://doi.org/10.1002/adma.202420063)
 
