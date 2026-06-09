@@ -5,7 +5,7 @@ type: page
 ---
 
 
-The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting highly motivated students and visiting scholars to join our team for **Fall/Spring 2026**. We are seeking individuals passionate about integrating solid mechanics, AI/ML, and sustainable materials to address challenges in healthcare and engineering.
+The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting highly motivated students and visiting scholars to join our team for **Fall/Spring 2027**. We are seeking individuals passionate about integrating solid mechanics, AI/ML, and sustainable materials to address challenges in healthcare and engineering.
 
 
 ---
