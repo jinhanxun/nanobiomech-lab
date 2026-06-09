@@ -24,14 +24,6 @@ type: page
 
 ### In revision
 
-**In situ mechanical characterization of functional and architected materials**
-
-**<u>H. Jin</u>**, M. Chen, M. Kagias, M. Abi Ghanem, B. Zhang, H.D. Espinosa†
-
-***In revision*** 2025
-
----
-
 **Engineered protein-cellulose composite hydrogels with superior mechanical performance for bioadhesion**
 
 J. Jeon, Z. Wang, M. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Lee, S.V. Subramani, L. Belaygorod, B. Arif, G.M. Genin, M. Foston, M.A. Zayed, F. Zhang†
@@ -55,6 +47,22 @@ J. Jeon, Z. Wang, M. Li, M. Senanayake, S.V. Pingali, **<u>H. Jin</u>**, K.Z. Le
 **<u>H. Jin</u>**, T. Anttonen, A. Mekkanakkil, A. Phan, O. Tchaicheeyan, R. Zaera Polo, B. Mortimer, A. Lesman, G.M. Genin†
 
 ***In preparation*** 2025
+
+---
+
+## 2026
+
+### **In situ mechanical characterization of functional and architected materials**
+
+**<u>H. Jin</u>**, M. Chen, M. Kagias, M. Abi Ghanem, B. Zhang, H.D. Espinosa†
+
+![In Situ Mechanical Characterization](/images/papers/NatureMaterials_Review.png)
+
+***Nature Materials*** 2026, 1-19
+
+**DOI:** [10.1038/s41563-026-02601-x](https://doi.org/10.1038/s41563-026-02601-x)
+
+Recent advances in instrumentation have sparked a transformative journey in materials science, providing insights into the intricate relationship between processing, structure and properties. Among them, cutting-edge in situ micro- and nanoscale mechanical characterization methods, equipped with exceptional spatial and temporal resolution, such as instrumented electron microscopy, X-ray imaging and opto-acoustic techniques, have opened new frontiers in the study of emerging functional and architected materials, including low-dimensional materials, bio-inspired materials and three-dimensional architected metamaterials, underscoring the versatility of these innovative characterization techniques. Furthermore, the integration of artificial intelligence and machine learning offers promising opportunities to streamline high-throughput experimentation processes and enhance the efficiency and accuracy of characterization, and promote the design of next-generation materials. This Review provides a comprehensive overview of the latest micro- and nanoscale mechanical characterization methods. We highlight their interdisciplinary applications to functional and architected materials in the pursuit of solutions for energy, sustainability, semiconductor technology and healthcare.
 
 ---
 
