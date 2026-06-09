@@ -6,10 +6,10 @@ type: page
 
 ## Principal Investigator
 
-<div style="display: grid; grid-template-columns: 150px 1fr; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+<div style="display: grid; grid-template-columns: 180px 1fr; gap: 2rem; margin-bottom: 2rem; align-items: center;">
 <div style="text-align: center;">
 
-<img src="/images/team/Jin_profile.jpg" alt="Hanxun Jin" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important; margin: 0 auto !important;">
+<img src="/images/team/Jin_profile.jpg" alt="Hanxun Jin" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important; margin: 0 auto !important;">
 
 </div>
 <div>
@@ -32,7 +32,7 @@ Hanxun joined as an Assistant Professor in the Department of Mechanical and Mate
 <div style="display: flex; gap: 1.5rem; align-items: center;">
 <div style="flex-shrink: 0;">
 
-<img src="/images/team/Elif_profile.jpg" alt="Elif Dursun" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+<img src="/images/team/Elif_profile.jpg" alt="Elif Dursun" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
 
 </div>
 <div>
@@ -49,7 +49,7 @@ PhD Student in Materials Science
 <div style="display: flex; gap: 1.5rem; align-items: center;">
 <div style="flex-shrink: 0;">
 
-<img src="/images/team/placeholder.svg" alt="Sagar Shrestha" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+<img src="/images/team/Sagar_profile.jpg" alt="Sagar Shrestha" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
 
 </div>
 <div>
@@ -66,7 +66,7 @@ PhD Student in Mechanical Engineering
 <div style="display: flex; gap: 1.5rem; align-items: center;">
 <div style="flex-shrink: 0;">
 
-<img src="/images/team/Ali_profile.jpg" alt="Ali Dursun" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+<img src="/images/team/Ali_profile.jpg" alt="Ali Dursun" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
 
 </div>
 <div>
@@ -91,7 +91,7 @@ MS in Engineering Mechanics
 <div style="display: flex; gap: 1.5rem; align-items: center;">
 <div style="flex-shrink: 0;">
 
-<img src="/images/team/placeholder.svg" alt="Jenna Tran" style="width: 150px !important; height: 150px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+<img src="/images/team/Jenna_profile.jpg" alt="Jenna Tran" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
 
 </div>
 <div>
@@ -99,6 +99,29 @@ MS in Engineering Mechanics
 <h3 style="margin-top: 0; font-size: 1.3em;">Jenna Tran</h3>
 
 REU Student, Cal Poly Pomona
+
+</div>
+</div>
+
+</div>
+
+---
+
+## High School Students
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
+
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
+<img src="/images/team/placeholder.svg" alt="Andrew Shi" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Andrew Shi</h3>
+
+Mason High School
 
 </div>
 </div>
