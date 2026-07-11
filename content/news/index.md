@@ -2,15 +2,29 @@
 title: "News"
 ---
 
-## Latest Updates
+### June 2026
+
+**📰 Our research highlighted by the University of Cincinnati**
+
+UC News featured our *Nature Materials* review and nanomaterials research in the article ["How do you study the world’s smallest materials?"](https://www.uc.edu/news/articles/2026/06/uc-nanotechnology-nanoscale-quantum-dots-nanomaterials-research.html).
 
 ---
 
-### June 2026
+**🏆 Prof. Jin attends USNC/TAM 2026 in Pasadena**
+
+Prof. Jin attended the 20th U.S. National Congress on Theoretical and Applied Mechanics (USNC/TAM 2026) in Pasadena, CA, and gave a talk titled "Neural Operators Assisted Design of Nano-Bio-Architected Materials with Targeted Mechanical Behaviors." He also received the American Academy of Mechanics Fellowship.
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/news/AAM_fellowship.jpg" alt="American Academy of Mechanics Travel Fellowship Certificate awarded to Hanxun Jin at USNC/TAM 2026" style="float: none !important; max-width: 420px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
 
 **📄 Our Review in Nature Materials has been published!**
 
 Our review, "In situ mechanical characterization of functional and architected materials," has been published in *Nature Materials*. **DOI:** [10.1038/s41563-026-02601-x](https://doi.org/10.1038/s41563-026-02601-x)
+
+---
 
 **🎤 Prof. Jin presents at the Society for Experimental Mechanics Annual Conference**
 
