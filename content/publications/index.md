@@ -12,6 +12,28 @@ type: page
 
 ## Work in progress
 
+### Preprint
+
+### **Harnessing disorder to decouple extension and shear in kirigami metamaterials**
+
+H. Yu\*, **<u>H. Jin</u>***†, M. Bi, M. Jafari, F.H. Long, M.J. Greenberg, F. Alisafaei†, G.M. Genin†
+
+***arXiv preprint*** 2026
+
+**arXiv:** [2607.16583](https://arxiv.org/abs/2607.16583)
+
+---
+
+### **A shear lag model of the podocyte foot process network predicts a mechanical feedback loop driving progressive effacement**
+
+M. Bi\*, **<u>H. Jin</u>***, P. Puapatanakul, Y. Huang, C. Qu, J.E. Miner, H. Suleiman, G.M. Genin†
+
+***bioRxiv*** 2026
+
+**DOI:** [10.64898/2026.07.15.738799](https://doi.org/10.64898/2026.07.15.738799)
+
+---
+
 ### In preparation
 
 **Generic nanostructural mechanics and multiscale modeling of programmable protein-based hydrogels**
@@ -50,7 +72,7 @@ Recent advances in instrumentation have sparked a transformative journey in mate
 
 **<u>H. Jin</u>**, W. Goldberg, Z. Wang, H. Li, Y. Huang, M. Foston, G.M. Genin†
 
-![Protein/CNC Soft Composites](/images/papers/SoftMatter_abstract.png)
+![Protein/CNC Soft Composites](/images/papers/SoftMatter_cover.jpg)
 
 ***Soft Matter*** 2026
 

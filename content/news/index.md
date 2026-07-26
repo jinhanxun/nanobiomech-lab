@@ -2,6 +2,38 @@
 title: "News"
 ---
 
+### July 2026
+
+**🎉 Celebrating Jenna's 10-week REU!**
+
+We celebrated the successful completion of Jenna Tran's 10-week REU together with Prof. Payton and Prof. Stewart's groups! During the REU, Jenna made outstanding contributions to ML for architected oil–water filter design! (And we love Prof. Payton's hat. 🎩)
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/news/REU_summer2026.jpg" alt="Celebrating Jenna Tran's 10-week REU with Prof. Eric Payton and Prof. Eric Stewart's groups" style="float: none !important; max-width: 560px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
+
+**🖨️ We started bioprinter training!**
+
+Our lab space is ready! Our lab began training on the CELLINK Bio X6 bioprinter — an exciting step forward as we advance our work in biomanufacturing and mechanobiology!
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/news/BioX_training.jpg" alt="NanoBioMech Lab bioprinter training on the CELLINK Bio X6" style="float: none !important; max-width: 520px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
+
+**📘 Our Soft Matter paper is featured on the Front Cover!**
+
+Our paper, "Competing Roles of Aggregation and Interfacial Interactions in Sustainable Protein/Cellulose Nanocrystal-Reinforced Soft Composites," has been selected as a Front Cover of *Soft Matter*. **DOI:** [10.1039/d6sm00329j](https://doi.org/10.1039/d6sm00329j)
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/papers/SoftMatter_cover.jpg" alt="Soft Matter front cover featuring our protein/cellulose nanocrystal soft composites paper" style="float: none !important; max-width: 280px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
+
 ### June 2026
 
 **📰 Our research highlighted by the University of Cincinnati**

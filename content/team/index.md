@@ -49,6 +49,23 @@ PhD Student in Materials Science
 <div style="display: flex; gap: 1.5rem; align-items: center;">
 <div style="flex-shrink: 0;">
 
+<img src="/images/team/Ali_profile.jpg" alt="Ali Dursun" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Ali Dursun</h3>
+
+PhD Student in Mechanical Engineering
+
+**Email:** dursunab@mail.uc.edu | [LinkedIn](https://www.linkedin.com/in/ali-bedirhan-dursun/)
+
+</div>
+</div>
+
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
 <img src="/images/team/Sagar_profile.jpg" alt="Sagar Shrestha" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
 
 </div>
@@ -59,46 +76,6 @@ PhD Student in Materials Science
 PhD Student in Mechanical Engineering
 
 **Email:** shrests5@mail.uc.edu
-
-</div>
-</div>
-
-<div style="display: flex; gap: 1.5rem; align-items: center;">
-<div style="flex-shrink: 0;">
-
-<img src="/images/team/Ali_profile.jpg" alt="Ali Dursun" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
-
-</div>
-<div>
-
-<h3 style="margin-top: 0; font-size: 1.3em;">Ali Dursun</h3>
-
-MS in Engineering Mechanics
-
-**Email:** dursunab@mail.uc.edu | [LinkedIn](https://www.linkedin.com/in/ali-bedirhan-dursun/)
-
-</div>
-</div>
-
-</div>
-
----
-
-## Undergraduate Students
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
-
-<div style="display: flex; gap: 1.5rem; align-items: center;">
-<div style="flex-shrink: 0;">
-
-<img src="/images/team/Jenna_profile.jpg" alt="Jenna Tran" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
-
-</div>
-<div>
-
-<h3 style="margin-top: 0; font-size: 1.3em;">Jenna Tran</h3>
-
-REU Student, Cal Poly Pomona
 
 </div>
 </div>
@@ -122,6 +99,29 @@ REU Student, Cal Poly Pomona
 <h3 style="margin-top: 0; font-size: 1.3em;">Andrew Shi</h3>
 
 Mason High School
+
+</div>
+</div>
+
+</div>
+
+---
+
+## Group Alumni
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
+
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
+<img src="/images/team/Jenna_profile.jpg" alt="Jenna Tran" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Jenna Tran</h3>
+
+Former REU Student, Cal Poly Pomona
 
 </div>
 </div>
