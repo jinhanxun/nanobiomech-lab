@@ -72,6 +72,14 @@ Prof. Jin has been awarded the prestigious Fellowship from the American Academy 
 
 ---
 
+### April 2026
+
+**🎤 Prof. Jin gave the William Maxwell Reed Seminar at the University of Kentucky**
+
+Invited by Prof. Xingsheng Sun, Prof. Jin presented the William Maxwell Reed Seminar at the University of Kentucky.
+
+---
+
 ### January 2026
 
 **🔬 Lab Opening at University of Cincinnati**
