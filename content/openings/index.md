@@ -5,7 +5,7 @@ type: page
 ---
 
 
-The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting highly motivated students and visiting scholars to join our team for **Fall/Spring 2027**. We are seeking individuals passionate about integrating solid mechanics, AI/ML, and sustainable materials to address challenges in healthcare and engineering.
+The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting highly motivated students and visiting scholars to join our team for **Fall/Spring 2027**. We are seeking individuals passionate about integrating advanced biomanufacturing, multiscale characterization, and mechanics modeling to address challenges in healthcare and engineering.
 
 
 ---
@@ -14,24 +14,29 @@ The **NanoBioMech Lab** at the University of Cincinnati is actively recruiting h
 
 Successful candidates will work on projects in one or more of the following areas:
 
-### 1. Advanced Manufacturing and Multiscale Characterization of Nano-Bio-Structures
+### 1. Advanced Biomanufacturing
 
-- Sustainable bioinks development and bioprinting/fabrication
-- Multiscale mechanical testing (nanoindentation, AFM, in situ testing)
-- Mechanobiology and cell-matrix interactions
+- Development of sustainable bioinks for bioprinting and fabrication
+- Design of collagen- and biopolymer-based cell scaffolds with controlled microstructure, composition, and interfacial properties
+- Fabrication of nano-bio-structured materials that combine mechanical performance, biocompatibility, and a smaller environmental footprint
 
-### 2. AI/ML-Driven Materials Design
+### 2. Multiscale Characterization
 
-- Neural operators for metamaterial inverse design
-- Physics-informed neural networks for constitutive modeling
-- Novel scientific ML methods for translational healthcare (e.g., wound healing, tissue scaffold optimization, personalized implant design)
+- Multiscale mechanical testing, including nanoindentation and in situ experiments
+- Mechanobiological studies of cell–matrix interactions, stiffness heterogeneity, and viscoelastic response in engineered tissues
+
+### 3. Mechanics Modeling
+
+- Continuum and discrete models that connect microstructural deformation to macroscopic mechanical behavior
+- Predictive modeling of damage, energy dissipation, and cellular mechanotransduction in bio-structured materials
+- Scientific machine learning, including neural operators and physics-informed models, for constitutive modeling and inverse design
 
 ---
 
 ## Qualifications
 
 - Master's or Bachelor's degree in Mechanical Engineering, Solid Mechanics, Materials Science, Bioengineering or related fields
-- Strong background in one of: experimental mechanics, machine learning, cell culture, bioprinting, computational and theoretical modeling
+- Strong background in one of: experimental mechanics, cell culture, bioprinting, computational and theoretical modeling, or machine learning (least important)
 - Programming experience (Python, MATLAB, or similar)
 - Excellent communication and teamwork skills
 - Passion for interdisciplinary research
@@ -54,7 +59,7 @@ Successful candidates will work on projects in one or more of the following area
 Please send the following materials in one combined PDF to **jinhx@ucmail.uc.edu** with the subject line: **"PhD Application - [Your Name]"**
 
 - CV/Resume
-- Brief statement of research interests (no more than 1 page)
+- Brief statement of research interests (no more than 1 paragraph; no AI, please)
 - Transcripts (unofficial copies acceptable)
 - Contact information for 1-2 references
 - Representative publications or research samples (if any)
