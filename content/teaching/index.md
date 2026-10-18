@@ -12,6 +12,8 @@ type: page
 
 **Summer 2026** | University of Cincinnati | [Syllabus (PDF)](/files/MECH2030_syllabus.pdf)
 
+**Enrollment:** 60 | **Teaching evaluation:** 4.75/5.00
+
 An introduction to the mechanics of deformable solids, covering stress and strain, axial loading, torsion, bending of beams, combined loading, stress transformation,  beam deflection, and finite element methods. We wrapped up the course with a fun ABAQUS final project designing 2D metamaterials. See some cool designs from the students!
 
 <div style="clear: both; margin: 1rem 0 1.5rem 0;">
