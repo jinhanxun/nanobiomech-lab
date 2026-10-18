@@ -66,6 +66,11 @@ sections:
     content:
       title: "Selected Publications"
       items:
+        - title: "Cell geometry and mechanics slow Gaucher red blood cells"
+          authors: "E. Dursun, H. Jin†"
+          journal: "Biophysical Journal"
+          year: "2026"
+          doi: "https://doi.org/10.1016/j.bpj.2026.10.003"
         - title: "In situ mechanical characterization of functional and architected materials"
           authors: "H. Jin, M. Chen, M. Kagias, M. Abi Ghanem, B. Zhang, H.D. Espinosa†"
           journal: "Nature Materials"

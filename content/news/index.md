@@ -2,6 +2,24 @@
 title: "News"
 ---
 
+### October 2026
+
+**🎤 SES 2026 Symposium on Mechanobiology and Biomaterial Innovation**
+
+Together with Drs. Farid Alisafaei, Grace X. Gu, and Guy Genin, we co-organized SES 2026 Symposium 2.6, *Experimental and Computational Methods in Mechanobiology and Biomaterial Innovation*. Over 2.5 days, the symposium brought together 43 talks on advances in mechanobiology, biomanufacturing, and biomaterial innovation.
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/news/SES2026_symposium.jpg" alt="SES 2026 Symposium 2.6 organizers Grace X. Gu, Farid Alisafaei, Hanxun Jin, and Guy Genin at Purdue University" style="float: none !important; max-width: 560px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
+
+**🎉 Our first New and Notable in Biophysical Journal**
+
+Congratulations to Elif! Our New and Notable, "Cell geometry and mechanics slow Gaucher red blood cells," has been published in *Biophysical Journal*. **DOI:** [10.1016/j.bpj.2026.10.003](https://doi.org/10.1016/j.bpj.2026.10.003)
+
+---
+
 ### July 2026
 
 **🎉 Celebrating Jenna's 10-week REU!**

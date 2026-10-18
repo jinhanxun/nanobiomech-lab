@@ -113,6 +113,25 @@ body {
   border-top: 1px solid #ccc;
 }
 
+.publications-page h2 {
+  margin-top: 1.15em;
+  margin-bottom: 0.35em;
+}
+
+.publications-page h3 {
+  margin-top: 0.35em;
+  margin-bottom: 0.15em;
+}
+
+.publications-page p {
+  margin: 0.1em 0;
+  line-height: 1.45;
+}
+
+.publications-page hr {
+  margin: 0.55em 0;
+}
+
 /* Mobile Responsive */
 @media (max-width: 968px) {
   .page-content {
@@ -232,7 +251,7 @@ body {
 }
 </style>
 
-<div class="page-content">
+<div class="page-content{{ if eq .RelPermalink "/publications/" }} publications-page{{ end }}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 </div>

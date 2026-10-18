@@ -67,29 +67,6 @@ PhD Student in Mechanical Engineering
 
 ---
 
-## High School Students
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
-
-<div style="display: flex; gap: 1.5rem; align-items: center;">
-<div style="flex-shrink: 0;">
-
-<img src="/images/team/placeholder.svg" alt="Andrew Shi" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
-
-</div>
-<div>
-
-<h3 style="margin-top: 0; font-size: 1.3em;">Andrew Shi</h3>
-
-Mason High School
-
-</div>
-</div>
-
-</div>
-
----
-
 ## Group Alumni
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem 3rem; margin-bottom: 2rem;">
@@ -105,6 +82,21 @@ Mason High School
 <h3 style="margin-top: 0; font-size: 1.3em;">Jenna Tran</h3>
 
 Former REU Student, Cal Poly Pomona
+
+</div>
+</div>
+
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
+<img src="/images/team/placeholder.svg" alt="Andrew Shi" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Andrew Shi</h3>
+
+Mason High School
 
 </div>
 </div>
