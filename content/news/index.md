@@ -2,6 +2,14 @@
 title: "News"
 ---
 
+### November 2026
+
+**🏆 Prof. Jin received NSF travel support to attend ASME IMECE 2026**
+
+Congratulations! Prof. Jin received NSF travel support to attend the ASME International Mechanical Engineering Congress & Exposition (IMECE) 2026.
+
+---
+
 ### October 2026
 
 **🎤 SES 2026 Symposium on Mechanobiology and Biomaterial Innovation**

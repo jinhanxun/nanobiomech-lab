@@ -90,6 +90,15 @@ X. Yan, S. Song, **<u>H. Jin</u>**
 
 ---
 
+### **[20] Mechanical forces enable human stem cell modeling of protein aggregation cardiomyopathy**
+Y.K.G. Kooh, B. Bahmani, C. Zhao, G. Malayath, A. Khokhlova, L. Hayem, H. Umuragwa, **<u>H. Jin</u>**, G. Ramahdita, X. Peng, H. Jiang, J.S. Perez, H.-Y.C. Chou, J.R. Silva, X. Ma, G.M. Genin, D.R. Rawnsley, A. Diwan, N. Huebsch†
+
+***Science Advances*** 2026, 12 (46), eaee9464
+
+**DOI:** [10.1126/sciadv.aee9464](https://doi.org/10.1126/sciadv.aee9464)
+
+---
+
 ## Before joining U Cincinnati
 
 ### **[15] Multiscale Architecture Governs Stability in Suction-Actuated Variable Stiffness Catheters**

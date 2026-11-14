@@ -80,6 +80,23 @@ Incoming PhD Student in Mechanical Engineering
 </div>
 </div>
 
+<div style="display: flex; gap: 1.5rem; align-items: center;">
+<div style="flex-shrink: 0;">
+
+<img src="/images/team/Madinabonu_profile.jpg" alt="Madinabonu Yokubjonova" style="width: 180px !important; height: 180px !important; object-fit: cover !important; border-radius: 50% !important; border: 3px solid #2563eb !important; display: block !important;">
+
+</div>
+<div>
+
+<h3 style="margin-top: 0; font-size: 1.3em;">Madinabonu Yokubjonova</h3>
+
+MS Student in Materials Science
+
+**Email:** yokubjmu@mail.uc.edu
+
+</div>
+</div>
+
 </div>
 
 ---
