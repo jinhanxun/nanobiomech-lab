@@ -36,6 +36,14 @@ Congratulations to Elif! Our New and Notable, "Cell geometry and mechanics slow 
 
 ---
 
+### September 2026
+
+**🎤 Prof. Jin gave an online department seminar at New Jersey Institute of Technology**
+
+Invited by Prof. Farid Alisafaei, Prof. Jin gave an online department seminar at New Jersey Institute of Technology.
+
+---
+
 ### July 2026
 
 **🎉 Celebrating Jenna's 10-week REU!**
