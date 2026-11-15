@@ -4,6 +4,14 @@ title: "News"
 
 ### November 2026
 
+**🎤 Invited by Prof. Liping Liu, Prof. Jin gave a seminar in the Mechanical and Aerospace Engineering Colloquium Series at Rutgers University.**
+
+<div style="clear: both; margin: 1rem 0 1.5rem 0;">
+<img src="/images/news/Rutgers_colloquium.jpg" alt="Rutgers MAE colloquium announcement for Dr. Hanxun Jin's seminar on fracture mechanics of architected materials" style="float: none !important; max-width: 640px !important; width: 100% !important; height: auto !important; display: block !important; margin: 0 !important; border-radius: 6px !important; border: 1px solid #e5e7eb !important;">
+</div>
+
+---
+
 **🏆 Prof. Jin received NSF travel support to attend ASME IMECE 2026**
 
 Congratulations! Prof. Jin received NSF travel support to attend the ASME International Mechanical Engineering Congress & Exposition (IMECE) 2026.
